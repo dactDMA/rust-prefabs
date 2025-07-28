@@ -166,6 +166,30 @@
 3817691101 - abovegroundpool
 4097525683 - abovegroundpool.deployed
 2406504767 - abovegroundpool.deployed/sockets/free
+1582153464 - abyss_barrel_horizontal
+169222139 - abyss_barrel_horizontal/sockets/adaptor01
+2183860427 - abyss_barrel_horizontal/sockets/adaptor02
+1042237627 - abyss_barrel_horizontal/sockets/adaptor03
+3822178379 - abyss_barrel_horizontal/sockets/adaptor04
+3309962993 - abyss_barrel_horizontal/sockets/free
+278298958 - abyss_barrel_horizontal/sockets/hopper
+3459461021 - abyss_barrel_vertical
+680434030 - abyss_barrel_vertical/sockets/adaptor01
+496430982 - abyss_barrel_vertical/sockets/adaptor02
+4239691546 - abyss_barrel_vertical/sockets/adaptor03
+4130297230 - abyss_barrel_vertical/sockets/adaptor04
+1732235208 - abyss_barrel_vertical/sockets/free
+1104637625 - abyss_barrel_vertical/sockets/hopper
+1027038066 - abyss_dlc_storage_horizontal
+3013571050 - abyss_dlc_storage_horizontal_lod0
+3705567475 - abyss_dlc_storage_horizontal_lod1
+1671385597 - abyss_dlc_storage_horizontal_lod2
+1611465156 - abyss_dlc_storage_horizontal_lod3
+1858708376 - abyss_dlc_storage_vertical
+912077159 - abyss_dlc_storage_vertical_lod0
+2302017827 - abyss_dlc_storage_vertical_lod1
+2978573086 - abyss_dlc_storage_vertical_lod2
+840996500 - abyss_dlc_storage_vertical_lod3
 1159607245 - acceptclicked
 1505533523 - access_card_01
 588999536 - access_card_02
@@ -330,6 +354,7 @@
 1197896438 - arrowwraps_01_lod1
 2875481900 - art
 753439699 - ashtrayblack_c
+2315502030 - assets/benchmark/world setup benchmark.prefab
 1474768327 - assets/bundled/prefabs/autospawn/canyon/canyon_1.prefab
 3594420605 - assets/bundled/prefabs/autospawn/canyon/canyon_2.prefab
 98396018 - assets/bundled/prefabs/autospawn/canyon/canyon_3.prefab
@@ -2424,8 +2449,10 @@
 2570070431 - assets/bundled/prefabs/ui/dialogs/techtree/ui.techtree.group.prefab
 4233452600 - assets/bundled/prefabs/ui/dialogs/techtree/ui.techtree.linevertical.prefab
 1328717003 - assets/bundled/prefabs/ui/dialogs/ui.dialog.assigntofriend.prefab
+2006982023 - assets/bundled/prefabs/ui/dialogs/ui.dialog.authorizefriend.prefab
 2950511034 - assets/bundled/prefabs/ui/dialogs/ui.dialog.fireworks.design.prefab
 742886546 - assets/bundled/prefabs/ui/dialogs/ui.dialog.muteplayer.prefab
+2156574445 - assets/bundled/prefabs/ui/dialogs/ui.dialog.pickteaminvite.prefab
 1182420435 - assets/bundled/prefabs/ui/dialogs/ui.dialog.pickwantedtarget.prefab
 3016326660 - assets/bundled/prefabs/ui/dialogs/ui.dialog.rccomputer.prefab
 477144803 - assets/bundled/prefabs/ui/dialogs/ui.dialog.reportbug.prefab
@@ -11642,6 +11669,8 @@
 1599005639 - assets/content/ui/gameui/frankensteinpartinformation.prefab
 1640524265 - assets/content/ui/gameui/gameui.ai.prefab
 2930631846 - assets/content/ui/gameui/gameui.contacts.prefab
+3924855683 - assets/content/ui/gameui/gameui.conversationscreen.missioninfo.prefab
+825130581 - assets/content/ui/gameui/gameui.conversationscreen.nonitemreward.prefab
 3947405411 - assets/content/ui/gameui/gameui.conversationscreen.prefab
 3476723157 - assets/content/ui/gameui/gameui.crafting.prefab
 3249138309 - assets/content/ui/gameui/gameui.deathscreen.infographic.divider.prefab
@@ -11792,6 +11821,8 @@
 150869484 - assets/content/ui/gameui/workshopitemrow.prefab
 2937326724 - assets/content/ui/menuui/friendslist/_prefabs/friends-list_body.prefab
 2435278000 - assets/content/ui/menuui/friendslist/_prefabs/friends-list_player.prefab
+213755390 - assets/content/ui/menuui/friendslist/_prefabs/party_invite.prefab
+3629677806 - assets/content/ui/menuui/friendslist/_prefabs/party-list_player.prefab
 2840244665 - assets/content/ui/menuui/friendslist/friendstyle.asset
 1431909971 - assets/content/ui/menuui/friendslist/menuui.friendslist.prefab
 889064925 - assets/content/ui/menuui/gestures/menuui.options.gesturepickeroption.prefab
@@ -11820,6 +11851,7 @@
 1873905740 - assets/content/ui/menuui/itemstore/building skins/brutalist/menuui.itemstore.buildingskin.brutalist.prefab
 2647019775 - assets/content/ui/menuui/itemstore/building skins/jungle/menuui.itemstore.buildingskin.jungle.prefab
 2712323055 - assets/content/ui/menuui/itemstore/building skins/legacywood/menuui.itemstore.buildingskin.legacywood.prefab
+86570782 - assets/content/ui/menuui/itemstore/building skins/legacywood_externalwallsandgate/menuui.itemstore.buildingskin.legacywood_externalwallsandgate.prefab
 2440418250 - assets/content/ui/menuui/itemstore/building skins/shippingcontainer/menuui.itemstore.buildingskin.shippingcontainer.prefab
 1937951141 - assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_canbourine.prefab
 3803141472 - assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_cowbell.prefab
@@ -11910,6 +11942,8 @@
 3989049425 - assets/content/ui/menuui/itemstore/misc/pattern sofa/menuui.itemstore.misc.patternsofa.prefab
 2432137681 - assets/content/ui/menuui/itemstore/misc/tool cupboard - retro/menuui.itemstore.misc.toolcupboardretro.prefab
 2950582180 - assets/content/ui/menuui/itemstore/misc/weapon racks/menuui.itemstore.misc.weaponracks.prefab
+1834107395 - assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_barrels.playable
+340814594 - assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_barrels.prefab
 1052149985 - assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_hatchet.prefab
 206877722 - assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_pickaxe.prefab
 4033864117 - assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_rifle.prefab
@@ -12038,6 +12072,7 @@
 784567923 - assets/content/ui/menuui/menuui.hero.prefab
 1461257986 - assets/content/ui/menuui/menuui.inventory.craftingmodal.prefab
 2407047265 - assets/content/ui/menuui/menuui.inventory.prefab
+2787820735 - assets/content/ui/menuui/menuui.modal.partyinvite.prefab
 3056344893 - assets/content/ui/menuui/menuui.modal.premiuminfo.prefab
 1459176892 - assets/content/ui/menuui/menuui.modal.serverinfo.nexus.prefab
 2476771803 - assets/content/ui/menuui/menuui.modal.serverinfo.nexus.stat.prefab
@@ -13614,6 +13649,7 @@
 1784104409 - assets/plugins/rust.ui/controls/rustbutton.lootall.asset
 2287073112 - assets/plugins/rust.ui/controls/rustbutton.mapmarkerlistdelete.asset
 1773614641 - assets/plugins/rust.ui/controls/rustbutton.menu.asset
+2201836835 - assets/plugins/rust.ui/controls/rustbutton.menu-dark.asset
 1280620823 - assets/plugins/rust.ui/controls/rustbutton.menu-notice-banreport.asset
 1416113366 - assets/plugins/rust.ui/controls/rustbutton.menu-optionstoggle.asset
 2444616033 - assets/plugins/rust.ui/controls/rustbutton.menu-right.asset
@@ -14606,9 +14642,9 @@
 3776427397 - assets/prefabs/building/gates.external.high.adobe/gates.external.high.adobe.item.prefab
 1587209110 - assets/prefabs/building/gates.external.high.adobe/gates.external.high.adobe.prefab
 3876819955 - assets/prefabs/building/gates.external.high.adobe/gates.external.high.adobe.sitem.asset
-2381025130 - assets/prefabs/building/gates.external.high.frontier/gates.external.high.frontier.item.prefab
-798296829 - assets/prefabs/building/gates.external.high.frontier/gates.external.high.frontier.prefab
-1891483339 - assets/prefabs/building/gates.external.high.frontier/gates.external.high.frontier.sitem.asset
+467914210 - assets/prefabs/building/gates.external.high.legacy/gates.external.high.frontier.sitem.asset
+2650156639 - assets/prefabs/building/gates.external.high.legacy/gates.external.high.legacy.item.prefab
+907778990 - assets/prefabs/building/gates.external.high.legacy/gates.external.high.legacy.prefab
 1984156475 - assets/prefabs/building/gates.external.high/gates.external.high.stone/gates.external.high.stone.item.prefab
 4211374971 - assets/prefabs/building/gates.external.high/gates.external.high.stone/gates.external.high.stone.prefab
 2151489121 - assets/prefabs/building/gates.external.high/gates.external.high.stone/gates.external.high.stone.skinnable.asset
@@ -14653,12 +14689,13 @@
 1651243358 - assets/prefabs/building/wall.external.high.adobe/wall.external.high.adobe.item.prefab
 542454407 - assets/prefabs/building/wall.external.high.adobe/wall.external.high.adobe.prefab
 4292065619 - assets/prefabs/building/wall.external.high.adobe/wall.external.high.adobe.sitem.asset
-300395975 - assets/prefabs/building/wall.external.high.frontier/wall.external.high.frontier.item.prefab
-4026344599 - assets/prefabs/building/wall.external.high.frontier/wall.external.high.frontier.prefab
-1756283580 - assets/prefabs/building/wall.external.high.frontier/wall.external.high.frontier.sitem.asset
-1579431744 - assets/prefabs/building/wall.external.high.frontier/wall_a.prefab
-1473169108 - assets/prefabs/building/wall.external.high.frontier/wall_b.prefab
-32715754 - assets/prefabs/building/wall.external.high.frontier/wall_c.prefab
+3546692830 - assets/prefabs/building/wall.external.high.legacy/legacy.gate.pack.sitem.asset
+926024383 - assets/prefabs/building/wall.external.high.legacy/wall.external.high.frontier.sitem.asset
+3506340294 - assets/prefabs/building/wall.external.high.legacy/wall.external.high.legacy.item.prefab
+2378789174 - assets/prefabs/building/wall.external.high.legacy/wall.external.high.legacy.prefab
+3223557831 - assets/prefabs/building/wall.external.high.legacy/wall_a.prefab
+910311733 - assets/prefabs/building/wall.external.high.legacy/wall_b.prefab
+78214759 - assets/prefabs/building/wall.external.high.legacy/wall_c.prefab
 2287692505 - assets/prefabs/building/wall.external.high.stone/effects/wall-external-stone-deploy.prefab
 3508992752 - assets/prefabs/building/wall.external.high.stone/sound/wall-external-stone-deploy.asset
 932410144 - assets/prefabs/building/wall.external.high.stone/wall.external.high.stone.item.prefab
@@ -15850,6 +15887,16 @@
 2206646561 - assets/prefabs/deployable/large wood storage/box.wooden.large.prefab
 3853307320 - assets/prefabs/deployable/large wood storage/box.wooden.large.skinnable.asset
 2275529615 - assets/prefabs/deployable/large wood storage/effects/large-wood-box-deploy.prefab
+3252334872 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.corpse.prefab
+3159792826 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.item.prefab
+339191443 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_horizontal/abyss_barrel_horizontal.prefab
+1768548626 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.corpse.prefab
+1480972727 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.item.prefab
+2794435815 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/abyss_dlc_storage_vertical/abyss_barrel_vertical.prefab
+975670762 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/effects/abyss-storage-deploy.prefab
+832594194 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/sound/abyss-storage-close.asset
+88602810 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/sound/abyss-storage-deploy.asset
+3227846118 - assets/prefabs/deployable/large wood storage/skins/abyss_dlc_large_wood_box/sound/abyss-storage-open.asset
 1486217549 - assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle.dlc.sitem.asset
 3374699880 - assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.corpse gibs.prefab
 1634507366 - assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/jungle_dlc_storage_horizontal/wicker_barrel.corpse.prefab
@@ -17328,13 +17375,13 @@
 3280128564 - assets/prefabs/misc/decor_dlc/storagebarrel/sound/storage-barrel-deploy.asset
 1063097701 - assets/prefabs/misc/decor_dlc/storagebarrel/sound/storage-barrel-open.asset
 429625695 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_a.item.prefab
-1982227630 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_a.prefab
 1186322904 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.corpse.prefab
 3057738335 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.item.prefab
 1502013593 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_b.prefab
 632015332 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.corpse.prefab
 391622606 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.item.prefab
 2261122309 - assets/prefabs/misc/decor_dlc/storagebarrel/storage_barrel_c.prefab
+1429074576 - assets/prefabs/misc/decor_dlc/storagebarrel/unused_storage_barrel_a.prefab
 3369123417 - assets/prefabs/misc/decor_dlc/torchholder/effects/torchholder enabled pfx.prefab
 39066900 - assets/prefabs/misc/decor_dlc/torchholder/torchholder.deployed.prefab
 1029393208 - assets/prefabs/misc/decor_dlc/torchholder/torchholder.item.prefab
@@ -18016,6 +18063,7 @@
 2101896921 - assets/prefabs/misc/platform/platform.entity.prefab
 2065397772 - assets/prefabs/misc/platform/platform.exclusion.entity.prefab
 1224573690 - assets/prefabs/misc/platform/platform.force.entity.prefab
+948487089 - assets/prefabs/misc/playerspawn/staticrespawnzonecompound_vanilla.prefab
 462003727 - assets/prefabs/misc/poker_chips/poker_chip_v1_white.prefab
 1252608818 - assets/prefabs/misc/poker_chips/poker_chip_v10_blue.prefab
 42502578 - assets/prefabs/misc/poker_chips/poker_chip_v100_black.prefab
@@ -18783,7 +18831,9 @@
 1181698029 - assets/prefabs/misc/xmas/xmastree/xmas_tree.deployed.prefab
 2219589390 - assets/prefabs/misc/xmas/xmastree/xmas_tree.item.prefab
 3520045458 - assets/prefabs/misc/xmas/xmastree/xmas_tree_a.deployed.prefab
+1344443792 - assets/prefabs/missions/activatesensor.asset
 1824551085 - assets/prefabs/missions/basictreasuremission.asset
+3593337897 - assets/prefabs/missions/batteryhunt.asset
 1410458775 - assets/prefabs/missions/boarhunt_1.asset
 2830604926 - assets/prefabs/missions/boarhunt_basic.asset
 3613340708 - assets/prefabs/missions/deerhunt_basic.asset
@@ -18794,6 +18844,9 @@
 2649100417 - assets/prefabs/missions/effects/mission_failed.prefab
 1807869374 - assets/prefabs/missions/effects/mission_objective_complete.prefab
 2189693102 - assets/prefabs/missions/effects/mission_victory.prefab
+3416881577 - assets/prefabs/missions/entities/dynamicmissionstash.prefab
+3294618459 - assets/prefabs/missions/entities/genericmissionlootcontainerreusable.prefab
+2898645756 - assets/prefabs/missions/entities/holdmissionentity.prefab
 1943082497 - assets/prefabs/missions/entities/logstash.prefab
 3128236346 - assets/prefabs/missions/entities/missionlootbox_basic.prefab
 3490516309 - assets/prefabs/missions/entities/missionstash.prefab
@@ -18804,6 +18857,9 @@
 136583473 - assets/prefabs/missions/harvestmission.asset
 2215873016 - assets/prefabs/missions/items/captain_log.png
 460838771 - assets/prefabs/missions/items/captainslog.item.prefab
+785008402 - assets/prefabs/missions/items/documents.iconrenderer.icon.png
+257348676 - assets/prefabs/missions/items/documents.iconrenderer.prefab
+1898089807 - assets/prefabs/missions/items/documents.item.prefab
 2660934706 - assets/prefabs/missions/items/fishing.tackle.icon.png
 2750000125 - assets/prefabs/missions/items/fishing.tackle.item.prefab
 2807744762 - assets/prefabs/missions/items/vodka_bottle.icon.png
@@ -18920,6 +18976,8 @@
 4197543753 - assets/prefabs/missions/positiongenerator/rivergen.asset
 463609474 - assets/prefabs/missions/positiongenerator/testgen.asset
 3977309357 - assets/prefabs/missions/resources/missionmanifest.asset
+2026359098 - assets/prefabs/missions/returntoprovider_noitems.asset
+2721046831 - assets/prefabs/missions/safezonespawnunlock.asset
 3271066556 - assets/prefabs/missions/sound/mission-accepted.asset
 3933496271 - assets/prefabs/missions/sound/mission-failed.asset
 783379178 - assets/prefabs/missions/sound/mission-objective-complete.asset
@@ -19116,6 +19174,7 @@
 983483540 - assets/prefabs/npc/bandit/divemasterconversation.asset
 3591486430 - assets/prefabs/npc/bandit/dungeonmissiontestconversation.asset
 1970227458 - assets/prefabs/npc/bandit/fishermanconversation.asset
+2515417072 - assets/prefabs/npc/bandit/genericmissionproviderconversation.asset
 4058311563 - assets/prefabs/npc/bandit/horsespawner.prefab
 99791550 - assets/prefabs/npc/bandit/hunterconversation.asset
 851269498 - assets/prefabs/npc/bandit/hunterconversationfull.asset
@@ -19125,6 +19184,7 @@
 322083179 - assets/prefabs/npc/bandit/missionproviders/missionprovider_bandit_b.prefab
 350957926 - assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_a.prefab
 3694999410 - assets/prefabs/npc/bandit/missionproviders/missionprovider_fishing_b.prefab
+4018233975 - assets/prefabs/npc/bandit/missionproviders/missionprovider_generic_a.prefab
 3928572443 - assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_a.prefab
 1091655158 - assets/prefabs/npc/bandit/missionproviders/missionprovider_outpost_b.prefab
 930153435 - assets/prefabs/npc/bandit/missionproviders/missionprovider_stables_a.prefab
@@ -19279,6 +19339,7 @@
 3768197714 - assets/prefabs/npc/patrol helicopter/patrol_helicopter.prefab
 893284419 - assets/prefabs/npc/patrol helicopter/patrol_helicopter_gibs_2.prefab
 3029415845 - assets/prefabs/npc/patrol helicopter/patrolhelicopter.prefab
+2618904203 - assets/prefabs/npc/patrol helicopter/patrolhelicopterfleemarker.prefab
 3212876472 - assets/prefabs/npc/patrol helicopter/patrolhelicoptermarker.prefab
 129320027 - assets/prefabs/npc/patrol helicopter/rocket_heli.prefab
 3253859536 - assets/prefabs/npc/patrol helicopter/rocket_heli_airburst.prefab
@@ -20008,6 +20069,7 @@
 3503845419 - assets/prefabs/tools/map/ui/ui.map.missionpoint.list.prefab
 2408885351 - assets/prefabs/tools/map/ui/ui.map.missionprovider.prefab
 3216518452 - assets/prefabs/tools/map/ui/ui.map.mlrsrocket.prefab
+501528574 - assets/prefabs/tools/map/ui/ui.map.patrolhelifleemarker.prefab
 3295977875 - assets/prefabs/tools/map/ui/ui.map.patrolhelimarker.prefab
 982158799 - assets/prefabs/tools/map/ui/ui.map.sleepingbag.prefab
 2216133809 - assets/prefabs/tools/map/ui/ui.map.sleepingbagcluster.prefab
@@ -22663,6 +22725,7 @@
 1398139455 - assets/prefabs/weapons/thompson/thompson.viewmodel.prefab
 3963658951 - assets/prefabs/weapons/thompson/thompson.worldmodel.prefab
 2852523789 - assets/prefabs/weapons/toolgun/effects/attack.prefab
+1481403840 - assets/prefabs/weapons/toolgun/effects/deploy.prefab
 895985426 - assets/prefabs/weapons/toolgun/effects/lineeffect.prefab
 3138031988 - assets/prefabs/weapons/toolgun/effects/lineeffect_realistic.prefab
 2890039308 - assets/prefabs/weapons/toolgun/effects/repairerror.prefab
@@ -24265,6 +24328,15 @@
 2404031377 - assets/scenes/release/oasis/splattexture0.png
 2364173113 - assets/scenes/release/oasis/splattexture1.png
 776052679 - assets/scenes/release/oasis/topologytexture.png
+2884783298 - assets/scenes/release/qaisland/alphatexture.png
+1534653703 - assets/scenes/release/qaisland/biometexture.png
+2379011199 - assets/scenes/release/qaisland/distancetexture.png
+2137218616 - assets/scenes/release/qaisland/heighttexture.png
+1830906256 - assets/scenes/release/qaisland/normaltexture.png
+3927359105 - assets/scenes/release/qaisland/splattexture0.png
+2654092048 - assets/scenes/release/qaisland/splattexture1.png
+2391107369 - assets/scenes/release/qaisland/topologytexture.png
+1601382646 - assets/scenes/release/qaisland/watertexture.png
 2544905841 - assets/scenes/release/range/biometexture.png
 1575917458 - assets/scenes/release/range/heighttexture.png
 2562906530 - assets/scenes/release/range/normaltexture.png
@@ -24322,6 +24394,7 @@
 2709657856 - assets/scenes/test/coastal_cliffs/coastal_cliffs_test/topologytexture.png
 4133531681 - assets/scenes/test/coastal_cliffs/coastal_cliffs_test/watertexture.png
 2463053105 - assets/scenes/test/figmapallette/uipallettefigma.png
+2237583213 - assets/scenes/test/firstperson_greybox/vm_animations_playblast.playable
 1039443931 - assets/scenes/test/loadmapfile/alphatexture.png
 3784309705 - assets/scenes/test/loadmapfile/biometexture.png
 3548457575 - assets/scenes/test/loadmapfile/heighttexture.png
@@ -24587,6 +24660,8 @@
 421377335 - bar
 1902219768 - barbedwire_set_straight300
 3449565659 - barbedwire_set_straight300 (1)
+2699251177 - barbedwire_set_straight300 (5)
+3188403080 - barbedwire_set_straight300 (6)
 630069422 - barbedwire_set_up90
 703083413 - barbedwire_set_up90 (1)
 3322100867 - barcollider
@@ -25106,6 +25181,7 @@
 3034205131 - camera_lod2
 3732425415 - camera_lod3
 4085612810 - camera_reclight
+1407813726 - cameraanimation
 3402590258 - camerahelper
 3142739427 - cameraposition
 1209225632 - campfire
@@ -25507,6 +25583,7 @@
 1055418099 - chimney light secondary 1 sr
 2659100552 - chimney light secondary 3
 793655200 - chimney smoke parent
+3659241929 - chin_bars
 2304954083 - chinchain_01_l1
 4091009958 - chinchain_01_r1
 1106247356 - chinchain_02_l
@@ -25517,6 +25594,7 @@
 2428313974 - chinese_door_frame_decoration/sockets/dressing-male
 113872500 - ChineseLantern.deployed/sockets (1)/free
 4140918046 - ChineseLantern_white.deployed/sockets/free
+2923899776 - chinlockedcratecodelock_lod0
 2762385934 - chipeject
 3883689967 - chippyarcademachine
 3941573639 - chippyarcademachine.static
@@ -25616,6 +25694,7 @@
 4226128848 - client_hookedsomething
 1771029182 - client_horseeat
 3433865087 - client_horseupdate
+1997051135 - client_missioncomplete
 19542421 - client_movement
 485388604 - client_oncassetteinserted
 2283381807 - client_oncassetteremoved
@@ -25717,6 +25796,9 @@
 116671074 - cockpit light
 3797783720 - coconutunderwear
 2368982450 - codeentryfailed
+371700132 - codelockcollision
+3344107452 - codelockedhackablecrate
+1181173261 - codelockedhackablecrate_oilrig
 1231650880 - coffee_ripple
 410089949 - coffee_smoke
 4224102985 - coffee_surface
@@ -26181,6 +26263,8 @@
 4061582721 - def-upper_arm.r.001
 2498687923 - deletebookmark
 2526980659 - deletebutton
+2988857222 - denied
+1034752324 - denied light
 4198534919 - deploy
 1292241482 - deploy (1)
 3187952048 - deploy_volume
@@ -27227,21 +27311,21 @@
 586384016 - gates.external.high.adobe/gate.rig/root/gate_r/doorcontroller01
 2899460574 - gates.external.high.adobe/gate.rig/root/gate_r/doorcontroller02
 468282444 - gates.external.high.adobe/sockets/terrain
-246897051 - gates.external.high.frontier
 2587594031 - gates.external.high.frontier.doorl_lod0
 927600102 - gates.external.high.frontier.doorl_lod1
 1797509179 - gates.external.high.frontier.doorl_lod2
 2125458909 - gates.external.high.frontier.doorr_lod0
 2813148778 - gates.external.high.frontier.doorr_lod1
 417131654 - gates.external.high.frontier.doorr_lod2
-2606686521 - gates.external.high.frontier/gate.rig/root/gate_r/doorcontroller01
-2480718011 - gates.external.high.frontier/gate.rig/root/gate_r/doorcontroller02
-3675317799 - gates.external.high.frontier/sockets/terrain
 518339363 - gates.external.high.frontier_lod0
 1549014619 - gates.external.high.frontier_lod1
 3840728133 - gates.external.high.frontier_lod2
 672369176 - gates.external.high.frontier_lod3
 1210026237 - gates.external.high.frontier_lod4
+3607966471 - gates.external.high.legacy
+1412455412 - gates.external.high.legacy/gate.rig/root/gate_r/doorcontroller01
+1744151628 - gates.external.high.legacy/gate.rig/root/gate_r/doorcontroller02
+2457689014 - gates.external.high.legacy/sockets/terrain
 2162760372 - gates.external.high.stone
 2369128062 - gates.external.high.stone/gate.rig/root/gate_r/doorcontroller01
 352861491 - gates.external.high.stone/gate.rig/root/gate_r/doorcontroller02
@@ -27401,6 +27485,8 @@
 528830675 - gong_root
 163065481 - gongcollider
 3101669090 - gradient
+670695676 - granted
+1092586030 - granted light
 3829453833 - grass
 2255874299 - grass_displace
 4122325535 - grassskirtunderwear
@@ -27466,8 +27552,12 @@
 1308912947 - hab_armor_t1_door_lod0
 4117534976 - hab_armor_t1_door_lod1
 1418059252 - hab_armor_t1_door_lod2
+3600302157 - hacked
+2421408034 - hackingobject
 2929270620 - hackingobject (1)
 1610611593 - hackingtext
+592094913 - hackprogress
+1164200004 - hackstart
 3321895280 - halfheight_salvaged_bamboo_shelves/sockets/free
 4227963231 - hammer
 2055154871 - hand_l
@@ -27574,6 +27664,7 @@
 3722186322 - helicopterpointbackright
 2408071977 - helicopterpointfrontleft
 4042931544 - helicopterpointfrontright
+957313343 - helipath
 2103884236 - helpfulramp
 1592576205 - hemp.entity/sockets/planter_slots
 2010004210 - hemp.entity/sockets/terrain
@@ -28193,6 +28284,8 @@
 3857033071 - ladders
 2613904195 - landmine/sockets/free
 536165828 - lantern.deployed/sockets/free
+1941390818 - laptop light
+2166080233 - laptopambient
 242862488 - laptopcollision
 1885019689 - laptopmodel
 1612821789 - large.rechargable.battery.deployed/sockets/free
@@ -29436,6 +29529,10 @@
 4250445788 - pivot
 1975884138 - placeholder
 2603364539 - plane
+3391118211 - plane (1)
+2777939745 - plane (2)
+2875140444 - plane (3)
+524586194 - plane (4)
 1822061927 - planter.large.deployed
 2813742009 - planter.large.deployed/sockets/free
 736582669 - planter.large.deployed/sockets/PlanterSlot (1)
@@ -30583,6 +30680,7 @@
 3372877184 - sculpture.ice.deployed/sockets/free
 1010245052 - searchlight.deployed
 931572575 - searchlight.deployed/sockets/free
+3407146919 - seaweed
 3831570630 - seaweed_01_01
 212874413 - seaweed_01_02
 4226471128 - seaweed_01_03
@@ -30620,6 +30718,84 @@
 1858695718 - seaweed_05_06
 1393503751 - seaweed_05_07
 705307144 - seaweed_05_anchor
+3864187576 - seaweed_clump_a
+693838269 - seaweed_clump_a (1)
+2680123097 - seaweed_clump_a (2)
+1864201417 - seaweed_clump_b
+1929860394 - seaweed_clump_b (1)
+3699842925 - seaweed_clump_b (2)
+2790472803 - seaweed_clump_b (3)
+281099346 - seaweed_clump_c
+2648937723 - seaweed_clump_c (1)
+3500126234 - seaweed_clump_c (10)
+4130039797 - seaweed_clump_c (11)
+302361177 - seaweed_clump_c (12)
+902272698 - seaweed_clump_c (2)
+2786773813 - seaweed_clump_c (3)
+3836989840 - seaweed_clump_c (4)
+2370014283 - seaweed_clump_c (5)
+3224825675 - seaweed_clump_c (6)
+2061118084 - seaweed_clump_c (7)
+624762077 - seaweed_clump_c (8)
+4277884806 - seaweed_clump_d
+3563649869 - seaweed_clump_d (1)
+4206336686 - seaweed_clump_e
+264835537 - seaweed_clump_e (1)
+2721414369 - seaweed_clump_e (2)
+3096654658 - seaweed_clump_e (3)
+2765801244 - seaweed_clump_e (4)
+1470022537 - seaweed_clump_e (5)
+1776615125 - seaweed_clump_f
+3443423946 - seaweed_clump_f (1)
+1107645253 - seaweed_clump_g
+591502486 - seaweed_clump_g (1)
+1358011373 - seaweed_clump_g (2)
+2526764239 - seaweed_clump_g (3)
+571856579 - seaweed_clump_g (4)
+1924673669 - seaweed_clump_g (5)
+4243683620 - seaweed_clump_h
+223491943 - seaweed_clump_h (1)
+1076988405 - seaweed_clump_h (2)
+1503290590 - seaweed_clump_h (3)
+1520397590 - seaweed_clump_h (4)
+287347113 - seaweed_clump_h (5)
+1371713006 - seaweed_clump_h (6)
+2555709461 - seaweed_clump_h (7)
+723139245 - seaweed_clump_j
+1309282906 - seaweed_clump_j (1)
+864099542 - seaweed_clump_j (2)
+3040685423 - seaweed_clump_j (3)
+135443733 - seaweed_clump_j (5)
+681160759 - seaweed_clump_j (6)
+3681902722 - seaweed_clump_k
+3742845370 - seaweed_clump_l
+45392574 - seaweed_clump_l (1)
+4012325246 - seaweed_clump_l (2)
+4036585949 - seaweed_clump_l (3)
+3725137699 - seaweed_clump_l (4)
+1920175793 - seaweed_clump_m
+2746281012 - seaweed_clump_m (1)
+312039366 - seaweed_clump_m (2)
+2425958740 - seaweed_clump_m (3)
+3027720571 - seaweed_clump_n
+2777539764 - seaweed_clump_n (1)
+3809023326 - seaweed_clump_n (2)
+1949505763 - seaweed_clump_o
+2198124105 - seaweed_clump_p
+2820353493 - seaweed_clump_p (1)
+1550092102 - seaweed_clump_p (2)
+1983842289 - seaweed_clump_q
+2700747065 - seaweed_clump_q (1)
+2204394811 - seaweed_clump_q (2)
+3709148417 - seaweed_clump_q (3)
+2094201522 - seaweed_clump_q (4)
+2683170128 - seaweed_clump_r
+4247750313 - seaweed_clump_r (1)
+295900232 - seaweed_clump_s
+2714927002 - seaweed_clump_t
+3634674695 - seaweed_clump_t (1)
+3937760391 - seaweed_clump_u
+1965064451 - seaweed_clump_u (1)
 2184053811 - secondfloorfloors
 814320738 - secondfloorrota
 119916123 - secondfloorrotb
@@ -30812,6 +30988,7 @@
 2238556937 - servertoggleblock
 1785864031 - servertoggleplay
 4002266471 - serverupdatesettings
+2005407348 - serveruse
 1334806139 - setactivebeltslot
 2433901419 - setanimationspeed
 1435781224 - setanimationstyle
@@ -31348,6 +31525,7 @@
 2521271228 - state-notready
 3636511055 - state-ready
 1413794714 - status
+1308707382 - statusglow
 1778849513 - statustext
 901999250 - steering_wheel
 2962598338 - steeringcolumn
@@ -31397,13 +31575,6 @@
 1739656243 - stopengine
 789289044 - stopfiring
 752723681 - stopmixing
-1532533585 - storage_barrel_a
-4089709987 - storage_barrel_a/sockets/adaptor01
-178946454 - storage_barrel_a/sockets/adaptor02
-3357412092 - storage_barrel_a/sockets/adaptor03
-1034042494 - storage_barrel_a/sockets/adaptor04
-3288502645 - storage_barrel_a/sockets/free
-4217612849 - storage_barrel_a/sockets/hopper
 577558371 - storage_barrel_a_lod0
 3515867386 - storage_barrel_a_lod1
 3828708330 - storage_barrel_a_lod2
@@ -31972,6 +32143,13 @@
 2433356304 - unlockedblueprint
 4149904254 - unlocksign
 418605506 - unlockwithcode
+3265589667 - unused_storage_barrel_a
+2959478449 - unused_storage_barrel_a/sockets/adaptor01
+1725780789 - unused_storage_barrel_a/sockets/adaptor02
+3994619704 - unused_storage_barrel_a/sockets/adaptor03
+3655133387 - unused_storage_barrel_a/sockets/adaptor04
+1405612810 - unused_storage_barrel_a/sockets/free
+3178270297 - unused_storage_barrel_a/sockets/hopper
 1571447769 - updateditemcontainer
 2961367905 - updatehackprogress
 3559537971 - updateitem
@@ -32528,8 +32706,8 @@
 97966390 - wall.doorway/sockets/wallpaper/1
 4135558811 - wall.doorway/sockets/wallpaper/2
 1231314908 - wall.external.high.adobe/sockets/terrain
-4134812336 - wall.external.high.frontier/sockets/terrain
 3546249022 - wall.external.high.ice/sockets/terrain
+1964944739 - wall.external.high.legacy/sockets/terrain
 3818027857 - wall.external.high.stone/sockets/terrain
 1278154068 - wall.external.high.wood/sockets/terrain
 2218596298 - wall.frame.cell.gate.door
@@ -32668,6 +32846,7 @@
 3017964544 - wallpaper_roll_lod0
 3461627962 - wallpaper_roll_lod1
 2838195350 - wallpaper_roll_lod2
+2881869890 - walltopper (1)
 107959553 - wantedposter.deployed/sockets/free
 3325562127 - wantedposter.wantedposter2/sockets/free
 511121688 - wantedposter.wantedposter3/sockets/free
@@ -32898,6 +33077,9 @@
 2924762350 - woodbox_deployed/sockets/industrialstorageadaptor
 1479061368 - woodbox_deployed/sockets/industrialstorageadaptor1
 1757215163 - wooddart
+2531495811 - wooden_crate_2 (3)
+3626044986 - wooden_crate_2 (4)
+3252796901 - wooden_crate_2 (5)
 3230246947 - wooden_cross (1)
 3071434081 - wooden_cross_lod0
 2314485048 - wooden_cross_lod1
