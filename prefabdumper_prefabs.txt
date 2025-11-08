@@ -3,9 +3,35 @@
 // Prefab Sniffer Updated Version ~ https://www.unknowncheats.me/forum/members/4932472.html
 namespace assets
 {
+	namespace automatedtests
+	{
+		namespace server
+		{
+			namespace raiding
+			{
+				namespace prefabs
+				{
+					constexpr uint32_t testscenario_rocketsplash1_p = 2525350389; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash1.prefab
+					constexpr uint32_t testscenario_rocketsplash10_armoredbug_p = 3740187753; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash10_armoredbug.prefab
+					constexpr uint32_t testscenario_rocketsplash11_trianglefoundationbug_p = 256563516; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash11_trianglefoundationbug.prefab
+					constexpr uint32_t testscenario_rocketsplash12_trianglebase_p = 1084424000; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash12_trianglebase.prefab
+					constexpr uint32_t testscenario_rocketsplash13_2x2_p = 2387581096; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash13_2x2.prefab
+					constexpr uint32_t testscenario_rocketsplash2_2x1_p = 3637096163; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash2_2x1.prefab
+					constexpr uint32_t testscenario_rocketsplash3_tc_p = 2850835377; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash3_tc.prefab
+					constexpr uint32_t testscenario_rocketsplash4_giantwall_p = 1536016522; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash4_giantwall.prefab
+					constexpr uint32_t testscenario_rocketsplash5_turretpod_p = 2265944872; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash5_turretpod.prefab
+					constexpr uint32_t testscenario_rocketsplash6_trianglebug_p = 50145536; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash6_trianglebug.prefab
+					constexpr uint32_t testscenario_rocketsplash7_foundationbug_p = 3791911842; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash7_foundationbug.prefab
+					constexpr uint32_t testscenario_rocketsplash8_armoredbug_p = 1211450235; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash8_armoredbug.prefab
+					constexpr uint32_t testscenario_rocketsplash9_armoredbug_p = 1736075703; // assets/automatedtests/server/raiding/prefabs/testscenario_rocketsplash9_armoredbug.prefab
+				}
+			}
+		}
+	}
 	namespace benchmark
 	{
-		constexpr uint32_t world setup benchmark_p = 2315502030; // assets/benchmark/world setup benchmark.prefab
+		constexpr uint32_t baseraid world setup_p = 985827054; // assets/benchmark/baseraid world setup.prefab
+		constexpr uint32_t biomebenchmark world setup_p = 786696516; // assets/benchmark/biomebenchmark world setup.prefab
 	}
 	namespace bundled
 	{
@@ -3337,6 +3363,24 @@ namespace assets
 					constexpr uint32_t grass_displace_medium_p = 641683255; // assets/bundled/prefabs/modding/admin/grass_displace_medium.prefab
 					constexpr uint32_t grass_displace_small_p = 2337729470; // assets/bundled/prefabs/modding/admin/grass_displace_small.prefab
 				}
+				namespace ai
+				{
+					constexpr uint32_t ai_monument_navmesh_p = 3170087903; // assets/bundled/prefabs/modding/ai/ai_monument_navmesh.prefab
+					constexpr uint32_t ai_obstacle_p = 1322793967; // assets/bundled/prefabs/modding/ai/ai_obstacle.prefab
+					constexpr uint32_t ai_spawner_bear_p = 918345874; // assets/bundled/prefabs/modding/ai/ai_spawner_bear.prefab
+					constexpr uint32_t ai_spawner_boar_p = 3789233041; // assets/bundled/prefabs/modding/ai/ai_spawner_boar.prefab
+					constexpr uint32_t ai_spawner_chicken_p = 3151392034; // assets/bundled/prefabs/modding/ai/ai_spawner_chicken.prefab
+					constexpr uint32_t ai_spawner_crocodile_p = 184172545; // assets/bundled/prefabs/modding/ai/ai_spawner_crocodile.prefab
+					constexpr uint32_t ai_spawner_deer_p = 3021867098; // assets/bundled/prefabs/modding/ai/ai_spawner_deer.prefab
+					constexpr uint32_t ai_spawner_heavyscientist_p = 4104619618; // assets/bundled/prefabs/modding/ai/ai_spawner_heavyscientist.prefab
+					constexpr uint32_t ai_spawner_horse_p = 2119241862; // assets/bundled/prefabs/modding/ai/ai_spawner_horse.prefab
+					constexpr uint32_t ai_spawner_npc_full_any_p = 1536678829; // assets/bundled/prefabs/modding/ai/ai_spawner_npc_full_any.prefab
+					constexpr uint32_t ai_spawner_npc_full_lr300_p = 137501265; // assets/bundled/prefabs/modding/ai/ai_spawner_npc_full_lr300.prefab
+					constexpr uint32_t ai_spawner_npc_oilrig_p = 2408525936; // assets/bundled/prefabs/modding/ai/ai_spawner_npc_oilrig.prefab
+					constexpr uint32_t ai_spawner_polarbear_p = 1203064475; // assets/bundled/prefabs/modding/ai/ai_spawner_polarbear.prefab
+					constexpr uint32_t ai_spawner_tiger_p = 1796863809; // assets/bundled/prefabs/modding/ai/ai_spawner_tiger.prefab
+					constexpr uint32_t ai_spawner_wolf_p = 3266774276; // assets/bundled/prefabs/modding/ai/ai_spawner_wolf.prefab
+				}
 				namespace asset_store
 				{
 					namespace bankheist_package
@@ -3480,6 +3524,10 @@ namespace assets
 						constexpr uint32_t cube_tiled_gravel_02_p = 2090754565; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_gravel_02.prefab
 						constexpr uint32_t cube_tiled_ice_01_p = 3513657256; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_ice_01.prefab
 						constexpr uint32_t cube_tiled_ice_02_p = 2693707408; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_ice_02.prefab
+						constexpr uint32_t cube_tiled_lava_01_p = 3013080716; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_lava_01.prefab
+						constexpr uint32_t cube_tiled_lava_02_p = 1212580584; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_lava_02.prefab
+						constexpr uint32_t cube_tiled_lava_02_w_fx_p = 2299999359; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_lava_02_w_fx.prefab
+						constexpr uint32_t cube_tiled_lava_02_w_fx_dmg_p = 2657962325; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_lava_02_w_fx_dmg.prefab
 						constexpr uint32_t cube_tiled_metal_01_p = 298123073; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_metal_01.prefab
 						constexpr uint32_t cube_tiled_metal_02_p = 969777638; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_metal_02.prefab
 						constexpr uint32_t cube_tiled_metal_03_p = 2624065695; // assets/bundled/prefabs/modding/cubes/tiled/cube_tiled_metal_03.prefab
@@ -3584,6 +3632,8 @@ namespace assets
 					constexpr uint32_t fire_static_01_p = 330621420; // assets/bundled/prefabs/modding/fx/fire_static_01.prefab
 					constexpr uint32_t fire_static_02_p = 1556864240; // assets/bundled/prefabs/modding/fx/fire_static_02.prefab
 					constexpr uint32_t fire_static_03_p = 1324214617; // assets/bundled/prefabs/modding/fx/fire_static_03.prefab
+					constexpr uint32_t smoke_volcano_p = 408078464; // assets/bundled/prefabs/modding/fx/smoke_volcano.prefab
+					constexpr uint32_t smoke_volcano_taller_p = 1454965913; // assets/bundled/prefabs/modding/fx/smoke_volcano_taller.prefab
 				}
 				namespace glass
 				{
@@ -3630,6 +3680,8 @@ namespace assets
 					constexpr uint32_t barrel_spawner_p = 1076121145; // assets/bundled/prefabs/modding/lootables/barrel_spawner.prefab
 					constexpr uint32_t basic_crate_spawner_p = 2042207134; // assets/bundled/prefabs/modding/lootables/basic_crate_spawner.prefab
 					constexpr uint32_t blue_card_spawner_p = 1862420473; // assets/bundled/prefabs/modding/lootables/blue_card_spawner.prefab
+					constexpr uint32_t codelockedhackablecrate_min_build_radius_p = 3898575109; // assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_min_build_radius.prefab
+					constexpr uint32_t codelockedhackablecrate_no_build_radius_p = 2453278077; // assets/bundled/prefabs/modding/lootables/codelockedhackablecrate_no_build_radius.prefab
 					constexpr uint32_t cranespawner_p = 619264397; // assets/bundled/prefabs/modding/lootables/cranespawner.prefab
 					constexpr uint32_t crate_normal_2_spawner_p = 2486800063; // assets/bundled/prefabs/modding/lootables/crate_normal_2_spawner.prefab
 					constexpr uint32_t crate_normal_random_spawner_p = 2678767843; // assets/bundled/prefabs/modding/lootables/crate_normal_random_spawner.prefab
@@ -3704,6 +3756,7 @@ namespace assets
 				}
 				namespace volumes_and_triggers
 				{
+					constexpr uint32_t biomefogstencilvolume_p = 508508557; // assets/bundled/prefabs/modding/volumes_and_triggers/biomefogstencilvolume.prefab
 					constexpr uint32_t cold_high_volume_p = 2368952222; // assets/bundled/prefabs/modding/volumes_and_triggers/cold_high_volume.prefab
 					constexpr uint32_t cold_med_volume_p = 1587311116; // assets/bundled/prefabs/modding/volumes_and_triggers/cold_med_volume.prefab
 					constexpr uint32_t cold_volume_p = 432403891; // assets/bundled/prefabs/modding/volumes_and_triggers/cold_volume.prefab
@@ -3764,6 +3817,7 @@ namespace assets
 				constexpr uint32_t crate_normal_2_p = 1546200557; // assets/bundled/prefabs/radtown/crate_normal_2.prefab
 				constexpr uint32_t crate_normal_2_food_p = 2066926276; // assets/bundled/prefabs/radtown/crate_normal_2_food.prefab
 				constexpr uint32_t crate_normal_2_medical_p = 1791916628; // assets/bundled/prefabs/radtown/crate_normal_2_medical.prefab
+				constexpr uint32_t crate_shore_p = 4047202303; // assets/bundled/prefabs/radtown/crate_shore.prefab
 				constexpr uint32_t crate_tools_p = 1892026534; // assets/bundled/prefabs/radtown/crate_tools.prefab
 				constexpr uint32_t crate_underwater_advanced_p = 2803512399; // assets/bundled/prefabs/radtown/crate_underwater_advanced.prefab
 				constexpr uint32_t crate_underwater_basic_p = 3852690109; // assets/bundled/prefabs/radtown/crate_underwater_basic.prefab
@@ -3826,107 +3880,6 @@ namespace assets
 					constexpr uint32_t vehicle_parts_p = 971684836; // assets/bundled/prefabs/radtown/underwater_labs/vehicle_parts.prefab
 				}
 				constexpr uint32_t vehicle_parts_p = 356724277; // assets/bundled/prefabs/radtown/vehicle_parts.prefab
-			}
-			namespace remapped
-			{
-				namespace monument
-				{
-					namespace arctic_bases
-					{
-						constexpr uint32_t arctic_research_base_a_scene_p = 2127622766; // assets/bundled/prefabs/remapped/monument/arctic_bases/arctic_research_base_a_scene.prefab
-					}
-					namespace cave
-					{
-						constexpr uint32_t cave_large_hard_scene_p = 3664179401; // assets/bundled/prefabs/remapped/monument/cave/cave_large_hard_scene.prefab
-						constexpr uint32_t cave_large_medium_scene_p = 1729356016; // assets/bundled/prefabs/remapped/monument/cave/cave_large_medium_scene.prefab
-						constexpr uint32_t cave_large_sewers_hard_scene_p = 1340095135; // assets/bundled/prefabs/remapped/monument/cave/cave_large_sewers_hard_scene.prefab
-						constexpr uint32_t cave_medium_easy_scene_p = 1569876095; // assets/bundled/prefabs/remapped/monument/cave/cave_medium_easy_scene.prefab
-						constexpr uint32_t cave_medium_hard_scene_p = 714451277; // assets/bundled/prefabs/remapped/monument/cave/cave_medium_hard_scene.prefab
-						constexpr uint32_t cave_medium_medium_scene_p = 4091087677; // assets/bundled/prefabs/remapped/monument/cave/cave_medium_medium_scene.prefab
-						constexpr uint32_t cave_small_easy_scene_p = 661465305; // assets/bundled/prefabs/remapped/monument/cave/cave_small_easy_scene.prefab
-						constexpr uint32_t cave_small_hard_scene_p = 2895251357; // assets/bundled/prefabs/remapped/monument/cave/cave_small_hard_scene.prefab
-						constexpr uint32_t cave_small_medium_scene_p = 2091889095; // assets/bundled/prefabs/remapped/monument/cave/cave_small_medium_scene.prefab
-					}
-					namespace fishing_village
-					{
-						constexpr uint32_t fishing_village_a_scene_p = 2892819405; // assets/bundled/prefabs/remapped/monument/fishing_village/fishing_village_a_scene.prefab
-						constexpr uint32_t fishing_village_b_scene_p = 1057026306; // assets/bundled/prefabs/remapped/monument/fishing_village/fishing_village_b_scene.prefab
-						constexpr uint32_t fishing_village_c_scene_p = 1960682680; // assets/bundled/prefabs/remapped/monument/fishing_village/fishing_village_c_scene.prefab
-					}
-					namespace harbor
-					{
-						constexpr uint32_t ferry_terminal_1_scene_p = 1330430544; // assets/bundled/prefabs/remapped/monument/harbor/ferry_terminal_1_scene.prefab
-						constexpr uint32_t harbor_1_scene_p = 1982594790; // assets/bundled/prefabs/remapped/monument/harbor/harbor_1_scene.prefab
-						constexpr uint32_t harbor_2_scene_p = 3261961365; // assets/bundled/prefabs/remapped/monument/harbor/harbor_2_scene.prefab
-					}
-					namespace large
-					{
-						constexpr uint32_t airfield_1_scene_p = 2049741118; // assets/bundled/prefabs/remapped/monument/large/airfield_1_scene.prefab
-						constexpr uint32_t excavator_1_scene_p = 2158679426; // assets/bundled/prefabs/remapped/monument/large/excavator_1_scene.prefab
-						constexpr uint32_t military_tunnel_1_scene_p = 2407485990; // assets/bundled/prefabs/remapped/monument/large/military_tunnel_1_scene.prefab
-						constexpr uint32_t powerplant_1_scene_p = 1187369820; // assets/bundled/prefabs/remapped/monument/large/powerplant_1_scene.prefab
-						constexpr uint32_t trainyard_1_scene_p = 1832916664; // assets/bundled/prefabs/remapped/monument/large/trainyard_1_scene.prefab
-						constexpr uint32_t water_treatment_plant_1_scene_p = 2548537480; // assets/bundled/prefabs/remapped/monument/large/water_treatment_plant_1_scene.prefab
-					}
-					namespace lighthouse
-					{
-						constexpr uint32_t lighthouse_scene_p = 1960662870; // assets/bundled/prefabs/remapped/monument/lighthouse/lighthouse_scene.prefab
-					}
-					namespace medium
-					{
-						constexpr uint32_t bandit_town_scene_p = 760222926; // assets/bundled/prefabs/remapped/monument/medium/bandit_town_scene.prefab
-						constexpr uint32_t compound_scene_p = 2107535360; // assets/bundled/prefabs/remapped/monument/medium/compound_scene.prefab
-						constexpr uint32_t junkyard_1_scene_p = 2936478055; // assets/bundled/prefabs/remapped/monument/medium/junkyard_1_scene.prefab
-						constexpr uint32_t nuclear_missile_silo_scene_p = 1137483850; // assets/bundled/prefabs/remapped/monument/medium/nuclear_missile_silo_scene.prefab
-						constexpr uint32_t radtown_small_3_scene_p = 1475745053; // assets/bundled/prefabs/remapped/monument/medium/radtown_small_3_scene.prefab
-					}
-					namespace military_bases
-					{
-						constexpr uint32_t desert_military_base_a_scene_p = 44469932; // assets/bundled/prefabs/remapped/monument/military_bases/desert_military_base_a_scene.prefab
-						constexpr uint32_t desert_military_base_b_scene_p = 3070408384; // assets/bundled/prefabs/remapped/monument/military_bases/desert_military_base_b_scene.prefab
-						constexpr uint32_t desert_military_base_c_scene_p = 3123681188; // assets/bundled/prefabs/remapped/monument/military_bases/desert_military_base_c_scene.prefab
-						constexpr uint32_t desert_military_base_d_scene_p = 2475752796; // assets/bundled/prefabs/remapped/monument/military_bases/desert_military_base_d_scene.prefab
-					}
-					namespace offshore
-					{
-						constexpr uint32_t oilrig_1_scene_p = 420030961; // assets/bundled/prefabs/remapped/monument/offshore/oilrig_1_scene.prefab
-						constexpr uint32_t oilrig_2_scene_p = 2249344181; // assets/bundled/prefabs/remapped/monument/offshore/oilrig_2_scene.prefab
-					}
-					namespace roadside
-					{
-						constexpr uint32_t gas_station_1_scene_p = 1316429453; // assets/bundled/prefabs/remapped/monument/roadside/gas_station_1_scene.prefab
-						constexpr uint32_t supermarket_1_scene_p = 2901002682; // assets/bundled/prefabs/remapped/monument/roadside/supermarket_1_scene.prefab
-						constexpr uint32_t warehouse_scene_p = 244984044; // assets/bundled/prefabs/remapped/monument/roadside/warehouse_scene.prefab
-					}
-					namespace small
-					{
-						constexpr uint32_t mining_quarry_a_scene_p = 3636707774; // assets/bundled/prefabs/remapped/monument/small/mining_quarry_a_scene.prefab
-						constexpr uint32_t mining_quarry_b_scene_p = 1274389858; // assets/bundled/prefabs/remapped/monument/small/mining_quarry_b_scene.prefab
-						constexpr uint32_t mining_quarry_c_scene_p = 4034215518; // assets/bundled/prefabs/remapped/monument/small/mining_quarry_c_scene.prefab
-						constexpr uint32_t satellite_dish_scene_p = 1149176194; // assets/bundled/prefabs/remapped/monument/small/satellite_dish_scene.prefab
-						constexpr uint32_t sphere_tank_scene_p = 1833621871; // assets/bundled/prefabs/remapped/monument/small/sphere_tank_scene.prefab
-						constexpr uint32_t stables_a_scene_p = 703506962; // assets/bundled/prefabs/remapped/monument/small/stables_a_scene.prefab
-						constexpr uint32_t stables_b_scene_p = 2225756434; // assets/bundled/prefabs/remapped/monument/small/stables_b_scene.prefab
-					}
-					namespace swamp
-					{
-						constexpr uint32_t swamp_a_scene_p = 1146314153; // assets/bundled/prefabs/remapped/monument/swamp/swamp_a_scene.prefab
-						constexpr uint32_t swamp_b_scene_p = 1888740148; // assets/bundled/prefabs/remapped/monument/swamp/swamp_b_scene.prefab
-						constexpr uint32_t swamp_c_scene_p = 3877744120; // assets/bundled/prefabs/remapped/monument/swamp/swamp_c_scene.prefab
-					}
-					namespace tiny
-					{
-						constexpr uint32_t water_well_a_scene_p = 2454550338; // assets/bundled/prefabs/remapped/monument/tiny/water_well_a_scene.prefab
-						constexpr uint32_t water_well_b_scene_p = 1212125213; // assets/bundled/prefabs/remapped/monument/tiny/water_well_b_scene.prefab
-						constexpr uint32_t water_well_c_scene_p = 1811361725; // assets/bundled/prefabs/remapped/monument/tiny/water_well_c_scene.prefab
-						constexpr uint32_t water_well_d_scene_p = 1477743576; // assets/bundled/prefabs/remapped/monument/tiny/water_well_d_scene.prefab
-						constexpr uint32_t water_well_e_scene_p = 2254965907; // assets/bundled/prefabs/remapped/monument/tiny/water_well_e_scene.prefab
-					}
-					namespace xlarge
-					{
-						constexpr uint32_t launch_site_1_scene_p = 1069561019; // assets/bundled/prefabs/remapped/monument/xlarge/launch_site_1_scene.prefab
-					}
-				}
 			}
 			namespace _static
 			{
@@ -4064,6 +4017,7 @@ namespace assets
 				constexpr uint32_t server_p = 4183588704; // assets/bundled/prefabs/system/server.prefab
 				namespace server
 				{
+					constexpr uint32_t buried_items_p = 3717979024; // assets/bundled/prefabs/system/server/buried_items.prefab
 					constexpr uint32_t clan_manager_p = 1817273498; // assets/bundled/prefabs/system/server/clan_manager.prefab
 					constexpr uint32_t community_p = 2528878115; // assets/bundled/prefabs/system/server/community.prefab
 					constexpr uint32_t relationship_manager_p = 827927784; // assets/bundled/prefabs/system/server/relationship_manager.prefab
@@ -4149,6 +4103,7 @@ namespace assets
 					constexpr uint32_t lootpanel_chickencoop_p = 1770306118; // assets/bundled/prefabs/ui/lootpanels/lootpanel.chickencoop.prefab
 					constexpr uint32_t lootpanel_chickencoop_status_widget_p = 1009144749; // assets/bundled/prefabs/ui/lootpanels/lootpanel.chickencoop.status.widget.prefab
 					constexpr uint32_t lootpanel_cookingworkbench_p = 2458601669; // assets/bundled/prefabs/ui/lootpanels/lootpanel.cookingworkbench.prefab
+					constexpr uint32_t lootpanel_dronesmall_p = 3391166532; // assets/bundled/prefabs/ui/lootpanels/lootpanel.dronesmall.prefab
 					constexpr uint32_t lootpanel_dropboxcontents_p = 273009333; // assets/bundled/prefabs/ui/lootpanels/lootpanel.dropboxcontents.prefab
 					constexpr uint32_t lootpanel_dropboxentry_p = 2621744412; // assets/bundled/prefabs/ui/lootpanels/lootpanel.dropboxentry.prefab
 					constexpr uint32_t lootpanel_engine_p = 4107604988; // assets/bundled/prefabs/ui/lootpanels/lootpanel.engine.prefab
@@ -4167,6 +4122,7 @@ namespace assets
 					constexpr uint32_t lootpanel_locker_p = 3388739083; // assets/bundled/prefabs/ui/lootpanels/lootpanel.locker.prefab
 					constexpr uint32_t lootpanel_mailboxcontents_p = 188030627; // assets/bundled/prefabs/ui/lootpanels/lootpanel.mailboxcontents.prefab
 					constexpr uint32_t lootpanel_mailboxentry_p = 1568087397; // assets/bundled/prefabs/ui/lootpanels/lootpanel.mailboxentry.prefab
+					constexpr uint32_t lootpanel_mannequin_p = 1133243197; // assets/bundled/prefabs/ui/lootpanels/lootpanel.mannequin.prefab
 					constexpr uint32_t lootpanel_mixingtable_p = 3688588830; // assets/bundled/prefabs/ui/lootpanels/lootpanel.mixingtable.prefab
 					constexpr uint32_t lootpanel_photoframe_p = 3938990288; // assets/bundled/prefabs/ui/lootpanels/lootpanel.photoframe.prefab
 					constexpr uint32_t lootpanel_player_corpse_p = 952584140; // assets/bundled/prefabs/ui/lootpanels/lootpanel.player_corpse.prefab
@@ -4178,6 +4134,7 @@ namespace assets
 					constexpr uint32_t lootpanel_skulltrophy_p = 123455578; // assets/bundled/prefabs/ui/lootpanels/lootpanel.skulltrophy.prefab
 					constexpr uint32_t lootpanel_slotmachine_p = 421216107; // assets/bundled/prefabs/ui/lootpanels/lootpanel.slotmachine.prefab
 					constexpr uint32_t lootpanel_smallrefinery_p = 4280261474; // assets/bundled/prefabs/ui/lootpanels/lootpanel.smallrefinery.prefab
+					constexpr uint32_t lootpanel_sortingsettings_p = 579907474; // assets/bundled/prefabs/ui/lootpanels/lootpanel.sortingsettings.prefab
 					constexpr uint32_t lootpanel_toolcupboard_p = 3598117754; // assets/bundled/prefabs/ui/lootpanels/lootpanel.toolcupboard.prefab
 					constexpr uint32_t lootpanel_trophystand_p = 434859249; // assets/bundled/prefabs/ui/lootpanels/lootpanel.trophystand.prefab
 					constexpr uint32_t lootpanel_vehicleediting_p = 3611240618; // assets/bundled/prefabs/ui/lootpanels/lootpanel.vehicleediting.prefab
@@ -4186,6 +4143,372 @@ namespace assets
 					constexpr uint32_t lootpanel_vendingmachine_storage_p = 545721267; // assets/bundled/prefabs/ui/lootpanels/lootpanel.vendingmachine.storage.prefab
 					constexpr uint32_t lootpanel_watercatcher_p = 2749182564; // assets/bundled/prefabs/ui/lootpanels/lootpanel.watercatcher.prefab
 					constexpr uint32_t lootpanel_workbench_p = 427338728; // assets/bundled/prefabs/ui/lootpanels/lootpanel.workbench.prefab
+				}
+				namespace menu2
+				{
+					namespace _components
+					{
+						constexpr uint32_t container_960_1440_p = 837297280; // assets/bundled/prefabs/ui/menu2/_components/container_960-1440.prefab
+						constexpr uint32_t dismisser_p = 3473853531; // assets/bundled/prefabs/ui/menu2/_components/dismisser.prefab
+						namespace header
+						{
+							constexpr uint32_t menuui2_header_p = 2550795219; // assets/bundled/prefabs/ui/menu2/_components/header/menuui2_header.prefab
+							constexpr uint32_t menuui2_header_navbutton_p = 4282693742; // assets/bundled/prefabs/ui/menu2/_components/header/menuui2_header_navbutton.prefab
+						}
+						constexpr uint32_t menuui2_companion_p = 2686011268; // assets/bundled/prefabs/ui/menu2/_components/menuui2.companion.prefab
+						constexpr uint32_t menuui2_footer_p = 2427714512; // assets/bundled/prefabs/ui/menu2/_components/menuui2_footer.prefab
+						constexpr uint32_t menuui2_loadingthingy_p = 3931746024; // assets/bundled/prefabs/ui/menu2/_components/menuui2_loadingthingy.prefab
+						constexpr uint32_t menuui2_scrollfadegradient_p = 233357765; // assets/bundled/prefabs/ui/menu2/_components/menuui2_scrollfadegradient.prefab
+						constexpr uint32_t menuui2_searchbar_p = 353377162; // assets/bundled/prefabs/ui/menu2/_components/menuui2_searchbar.prefab
+						constexpr uint32_t menuui2_serverlist_p = 4117965152; // assets/bundled/prefabs/ui/menu2/_components/menuui2_serverlist.prefab
+						namespace modals
+						{
+							constexpr uint32_t menuui2_component_modal_genericitem_p = 4012691983; // assets/bundled/prefabs/ui/menu2/_components/modals/menuui2_component_modal_genericitem.prefab
+							constexpr uint32_t menuui2_component_popup_generic_p = 213600236; // assets/bundled/prefabs/ui/menu2/_components/modals/menuui2_component_popup_generic.prefab
+							constexpr uint32_t menuui2_component_popup_warning_p = 192019930; // assets/bundled/prefabs/ui/menu2/_components/modals/menuui2_component_popup_warning.prefab
+						}
+						constexpr uint32_t notification_p = 2659893396; // assets/bundled/prefabs/ui/menu2/_components/notification.prefab
+						constexpr uint32_t pageheader_icontitlesubtitle_p = 1086275267; // assets/bundled/prefabs/ui/menu2/_components/pageheader_icontitlesubtitle.prefab
+						constexpr uint32_t pageheader_icontitlesubtitle_small_p = 321192081; // assets/bundled/prefabs/ui/menu2/_components/pageheader_icontitlesubtitle_small.prefab
+						constexpr uint32_t scrollbar_p = 4209712785; // assets/bundled/prefabs/ui/menu2/_components/scrollbar.prefab
+						constexpr uint32_t sidebarcontainer_p = 1342043438; // assets/bundled/prefabs/ui/menu2/_components/sidebarcontainer.prefab
+						constexpr uint32_t store hero_p = 3133684211; // assets/bundled/prefabs/ui/menu2/_components/store hero.prefab
+						constexpr uint32_t subnavigation_bg_p = 2805222041; // assets/bundled/prefabs/ui/menu2/_components/subnavigation_bg.prefab
+					}
+					namespace _modals
+					{
+						namespace demos
+						{
+							constexpr uint32_t menuui2_demoswindow_p = 4106241395; // assets/bundled/prefabs/ui/menu2/_modals/demos/menuui2_demoswindow.prefab
+							constexpr uint32_t menuui2_demoswindow_item_p = 3289716644; // assets/bundled/prefabs/ui/menu2/_modals/demos/menuui2_demoswindow_item.prefab
+						}
+						constexpr uint32_t interactiontoast_p = 846497995; // assets/bundled/prefabs/ui/menu2/_modals/interactiontoast.prefab
+						constexpr uint32_t menuui2_modal_premium_p = 3282947311; // assets/bundled/prefabs/ui/menu2/_modals/menuui2_modal_premium.prefab
+						constexpr uint32_t menuui2_modal_tutorial_p = 2200369413; // assets/bundled/prefabs/ui/menu2/_modals/menuui2_modal_tutorial.prefab
+						constexpr uint32_t menuui2_quitmodal_p = 1439492373; // assets/bundled/prefabs/ui/menu2/_modals/menuui2_quitmodal.prefab
+						constexpr uint32_t menuui2_rustplus_p = 4247362114; // assets/bundled/prefabs/ui/menu2/_modals/menuui2_rustplus.prefab
+						constexpr uint32_t menuui2_session_p = 3906994954; // assets/bundled/prefabs/ui/menu2/_modals/menuui2_session.prefab
+					}
+					namespace _pages
+					{
+						namespace home
+						{
+							constexpr uint32_t menuui2_home_p = 3124970519; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home.prefab
+							constexpr uint32_t menuui2_home_advert_featureditem_p = 219137774; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_advert_featureditem.prefab
+							constexpr uint32_t menuui2_home_advert_twitchcampaign_p = 479110223; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_advert_twitchcampaign.prefab
+							constexpr uint32_t menuui2_home_infobox_p = 1943522246; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_infobox.prefab
+							constexpr uint32_t menuui2_home_patchinfo_p = 618095677; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_patchinfo.prefab
+							constexpr uint32_t menuui2_home_quickjoin_p = 1972756491; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_quickjoin.prefab
+							constexpr uint32_t menuui2_home_quickjoin_row_p = 2215602854; // assets/bundled/prefabs/ui/menu2/_pages/home/menuui2_home_quickjoin_row.prefab
+							namespace social
+							{
+								constexpr uint32_t menuui2_chat_p = 1087038464; // assets/bundled/prefabs/ui/menu2/_pages/home/social/menuui2_chat.prefab
+								constexpr uint32_t menuui2_chat_item_p = 2002131684; // assets/bundled/prefabs/ui/menu2/_pages/home/social/menuui2_chat_item.prefab
+								constexpr uint32_t menuui2_chatandparty_p = 3763668915; // assets/bundled/prefabs/ui/menu2/_pages/home/social/menuui2_chatandparty.prefab
+								constexpr uint32_t menuui2_chatold_p = 1848735110; // assets/bundled/prefabs/ui/menu2/_pages/home/social/menuui2_chatold.prefab
+								constexpr uint32_t menuui2_friendlist_p = 2089819006; // assets/bundled/prefabs/ui/menu2/_pages/home/social/menuui2_friendlist.prefab
+							}
+						}
+						namespace loading_screen
+						{
+							constexpr uint32_t menuui2_loadingscreen_p = 2636115848; // assets/bundled/prefabs/ui/menu2/_pages/loading screen/menuui2_loadingscreen.prefab
+						}
+						namespace play
+						{
+							constexpr uint32_t menuui2_play_p = 2364859756; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play.prefab
+							constexpr uint32_t menuui2_play_checkbox_p = 3575045081; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_checkbox.prefab
+							constexpr uint32_t menuui2_play_connectmodal_p = 1437684952; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_connectmodal.prefab
+							constexpr uint32_t menuui2_play_gamemodebutton_p = 4287939458; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_gamemodebutton.prefab
+							constexpr uint32_t menuui2_play_largetogglebutton_p = 918020710; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_largetogglebutton.prefab
+							constexpr uint32_t menuui2_play_modal_shockbyte_p = 1976782904; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_modal_shockbyte.prefab
+							constexpr uint32_t menuui2_play_refreshbutton_p = 4117062148; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_refreshbutton.prefab
+							constexpr uint32_t menuui2_play_servercategorybutton_p = 590999021; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_servercategorybutton.prefab
+							constexpr uint32_t menuui2_play_serverentry_p = 2783100712; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_serverentry.prefab
+							constexpr uint32_t menuui2_play_tabbox_p = 4180871722; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_tabbox.prefab
+							constexpr uint32_t menuui2_play_tags_p = 1192563393; // assets/bundled/prefabs/ui/menu2/_pages/play/menuui2_play_tags.prefab
+						}
+						namespace settings
+						{
+							namespace gestures
+							{
+								constexpr uint32_t draggedgesture_p = 1533969459; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/draggedgesture.prefab
+								constexpr uint32_t ui_settings_gesturelistbutton_p = 4281307064; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/ui_settings_gesturelistbutton.prefab
+								constexpr uint32_t ui_settings_gesturepack_p = 2244363164; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/ui_settings_gesturepack.prefab
+								constexpr uint32_t ui_settings_gestures_p = 1660308627; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/ui_settings_gestures.prefab
+								constexpr uint32_t ui_settings_gesturewheel_p = 1401786854; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/ui_settings_gesturewheel.prefab
+								constexpr uint32_t ui_settings_gesturewidget_p = 581997688; // assets/bundled/prefabs/ui/menu2/_pages/settings/gestures/ui_settings_gesturewidget.prefab
+							}
+							constexpr uint32_t menuui2_settings_p = 884354895; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings.prefab
+							constexpr uint32_t menuui2_settings_popup_crosshairexport_p = 3600902861; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_popup_crosshairexport.prefab
+							constexpr uint32_t menuui2_settings_popup_crosshairimport_p = 1515657199; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_popup_crosshairimport.prefab
+							constexpr uint32_t menuui2_settings_popupwarning_safemode_p = 400720150; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_popupwarning_safemode.prefab
+							constexpr uint32_t menuui2_settings_safemodewarning_p = 1873485896; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_safemodewarning.prefab
+							constexpr uint32_t menuui2_settings_tabbutton_p = 2440097191; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tabbutton.prefab
+							constexpr uint32_t menuui2_settings_tweakbase_p = 2467666761; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakbase.prefab
+							constexpr uint32_t menuui2_settings_tweakcolorpicker_p = 1700876308; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakcolorpicker.prefab
+							constexpr uint32_t menuui2_settings_tweakcolorpicker_item_p = 873638168; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakcolorpicker_item.prefab
+							constexpr uint32_t menuui2_settings_tweakdropdown_p = 1226567315; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakdropdown.prefab
+							constexpr uint32_t menuui2_settings_tweakdropdown_item_p = 917150618; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakdropdown_item.prefab
+							constexpr uint32_t menuui2_settings_tweakkeybind_p = 4113198733; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakkeybind.prefab
+							constexpr uint32_t menuui2_settings_tweakslider_p = 3086065262; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweakslider.prefab
+							constexpr uint32_t menuui2_settings_tweaktoggle_p = 3292537947; // assets/bundled/prefabs/ui/menu2/_pages/settings/menuui2_settings_tweaktoggle.prefab
+						}
+						namespace steam_inventory
+						{
+							namespace _modals
+							{
+								constexpr uint32_t menuui2_steaminventory_modal_bagcrafting_p = 2119894637; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/_modals/menuui2_steaminventory_modal_bagcrafting.prefab
+								constexpr uint32_t menuui2_steaminventory_modal_bagopening_p = 1706636708; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/_modals/menuui2_steaminventory_modal_bagopening.prefab
+								constexpr uint32_t menuui2_steaminventory_modal_item_p = 2656215526; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/_modals/menuui2_steaminventory_modal_item.prefab
+								constexpr uint32_t menuui2_steaminventory_modal_newitem_p = 2646649841; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/_modals/menuui2_steaminventory_modal_newitem.prefab
+							}
+							constexpr uint32_t menuui2_steaminventory_p = 2752559305; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/menuui2_steaminventory.prefab
+							constexpr uint32_t menuui2_steaminventory_cratebutton_p = 4139550327; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/menuui2_steaminventory_cratebutton.prefab
+							constexpr uint32_t menuui2_steaminventory_item_p = 2433683957; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/menuui2_steaminventory_item.prefab
+							constexpr uint32_t menuui2_steaminventory_popup_craftingwarning_p = 1853035595; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/menuui2_steaminventory_popup_craftingwarning.prefab
+							constexpr uint32_t menuui2_steaminventory_popup_deletewarning_p = 1757277598; // assets/bundled/prefabs/ui/menu2/_pages/steam inventory/menuui2_steaminventory_popup_deletewarning.prefab
+						}
+						namespace store
+						{
+							namespace checkout
+							{
+								constexpr uint32_t menuui2_store_checkoutresult_p = 2085137713; // assets/bundled/prefabs/ui/menu2/_pages/store/checkout/menuui2_store_checkoutresult.prefab
+								constexpr uint32_t menuui2_store_checkoutresult_button_p = 3301489934; // assets/bundled/prefabs/ui/menu2/_pages/store/checkout/menuui2_store_checkoutresult_button.prefab
+							}
+							namespace dlc
+							{
+								namespace _dlc
+								{
+									namespace instruments
+									{
+										constexpr uint32_t menuui2_store_dlc_instruments_p = 704138880; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/instruments/menuui2_store_dlc_instruments.prefab
+									}
+									constexpr uint32_t menuui2_store_dlc_overlaybase_p = 3305268418; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/menuui2_store_dlc_overlaybase.prefab
+									namespace soundtrack
+									{
+										constexpr uint32_t menuui2_store_dlc_soundtrack_p = 2627123255; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/soundtrack/menuui2_store_dlc_soundtrack.prefab
+										constexpr uint32_t tracklist_row_p = 1473286535; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/soundtrack/tracklist_row.prefab
+										constexpr uint32_t tracklist_row_alt_p = 469623499; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/soundtrack/tracklist_row_alt.prefab
+									}
+									namespace sunburn
+									{
+										constexpr uint32_t menuui2_store_dlc_sunburn_p = 3133899363; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/sunburn/menuui2_store_dlc_sunburn.prefab
+									}
+									namespace voiceprops
+									{
+										constexpr uint32_t menuui2_store_dlc_voiceprops_p = 2721586572; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/voiceprops/menuui2_store_dlc_voiceprops.prefab
+									}
+									namespace warhammer
+									{
+										constexpr uint32_t menuui2_store_dlc_warhammer_p = 417327039; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/_dlc/warhammer/menuui2_store_dlc_warhammer.prefab
+									}
+								}
+								constexpr uint32_t menuui2_store_button_viewonsteam_p = 293383616; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/menuui2_store_button_viewonsteam.prefab
+								constexpr uint32_t menuui2_store_dlc_p = 2782385678; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/menuui2_store_dlc.prefab
+								constexpr uint32_t menuui2_store_dlcitem_p = 1460177207; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/menuui2_store_dlcitem.prefab
+								constexpr uint32_t menuui2_store_dlcitem_warhammer_p = 678065604; // assets/bundled/prefabs/ui/menu2/_pages/store/dlc/menuui2_store_dlcitem_warhammer.prefab
+							}
+							namespace featured
+							{
+								constexpr uint32_t menuui2_store_featured_p = 3786647701; // assets/bundled/prefabs/ui/menu2/_pages/store/featured/menuui2_store_featured.prefab
+							}
+							namespace general
+							{
+								constexpr uint32_t divider_p = 860110646; // assets/bundled/prefabs/ui/menu2/_pages/store/general/divider.prefab
+								constexpr uint32_t menuui2_store_general_p = 1276959994; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general.prefab
+								constexpr uint32_t menuui2_store_general_skintile_p = 203315628; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile.prefab
+								constexpr uint32_t menuui2_store_general_skintile_new_p = 1426523428; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_new.prefab
+								constexpr uint32_t menuui2_store_general_skintile_noprice_p = 2677769808; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_noprice.prefab
+								constexpr uint32_t menuui2_store_general_skintile_noprice_newitem_p = 381381584; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_noprice_newitem.prefab
+								constexpr uint32_t menuui2_store_general_skintile_noprice_partofpack_p = 2326033378; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_noprice_partofpack.prefab
+								constexpr uint32_t menuui2_store_general_skintile_noprice_partofpack_new_p = 253957075; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_noprice_partofpack_new.prefab
+								constexpr uint32_t menuui2_store_general_skintile_steamdlc_p = 4144808496; // assets/bundled/prefabs/ui/menu2/_pages/store/general/menuui2_store_general_skintile_steamdlc.prefab
+								namespace packs
+								{
+									namespace _buildingskins
+									{
+										namespace adobe
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_adobe_p = 251565495; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/adobe/menuui2_store_pageoverlay_adobe.prefab
+										}
+										namespace adobe_externalwallsandgate
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_adobeexternal_p = 3714631685; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/adobe_externalwallsandgate/menuui2_store_pageoverlay_adobeexternal.prefab
+										}
+										namespace brick
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_brick_p = 2102377371; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/brick/menuui2_store_pageoverlay_brick.prefab
+										}
+										namespace brutalist
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_brutalist_p = 825512919; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/brutalist/menuui2_store_pageoverlay_brutalist.prefab
+										}
+										namespace jungle
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_jungleruins_p = 549072289; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/jungle/menuui2_store_pageoverlay_jungleruins.prefab
+										}
+										namespace legacy_wood
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_legacywood_p = 3766642163; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/legacy wood/menuui2_store_pageoverlay_legacywood.prefab
+										}
+										namespace legacywood_externalwallsandgate
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_legacywoodexternal_p = 1469060824; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/legacywood_externalwallsandgate/menuui2_store_pageoverlay_legacywoodexternal.prefab
+										}
+										constexpr uint32_t menuui2_store_pageoverlay_buildingskintag_p = 1463603150; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/menuui2_store_pageoverlay_buildingskintag.prefab
+										namespace shipping_container
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_shippingcontainer_p = 625109476; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_buildingskins/shipping container/menuui2_store_pageoverlay_shippingcontainer.prefab
+										}
+									}
+									namespace _hazmat
+									{
+										namespace nomad
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_nomad_p = 359325043; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_hazmat/nomad/menuui2_store_pageoverlay_nomad.prefab
+										}
+									}
+									namespace _misc
+									{
+										namespace coconut_underwear
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_coconutunderwear_p = 227214118; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/coconut underwear/menuui2_store_pageoverlay_coconutunderwear.prefab
+										}
+										namespace factory_door
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_factorydoor_p = 1854052887; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/factory door/menuui2_store_pageoverlay_factorydoor.prefab
+										}
+										namespace industrial_lights
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_industriallights_p = 2293906235; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/industrial lights/menuui2_store_pageoverlay_industriallights.prefab
+										}
+										namespace pattern_boomer
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_patternboomer_p = 861463594; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/pattern boomer/menuui2_store_pageoverlay_patternboomer.prefab
+										}
+										namespace pattern_sofa
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_patternsofa_p = 427420852; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/pattern sofa/menuui2_store_pageoverlay_patternsofa.prefab
+										}
+										namespace rpg
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_rpg_p = 521018721; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/rpg/menuui2_store_pageoverlay_rpg.prefab
+										}
+										namespace tool_cupboard___retro
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_retrotoolcupboard_p = 301015928; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/tool cupboard - retro/menuui2_store_pageoverlay_retrotoolcupboard.prefab
+										}
+										namespace weapon_racks
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_weaponracks_p = 1030360738; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_misc/weapon racks/menuui2_store_pageoverlay_weaponracks.prefab
+										}
+									}
+									namespace _packs
+									{
+										namespace abyss
+										{
+											constexpr uint32_t menuui2_store_general_packshowcase_abyss_p = 1396258847; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/abyss/menuui2_store_general_packshowcase_abyss.prefab
+											constexpr uint32_t menuui2_store_pageoverlay_abyss_p = 2714507337; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/abyss/menuui2_store_pageoverlay_abyss.prefab
+										}
+										namespace arctic
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_arctic_p = 672753056; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/arctic/menuui2_store_pageoverlay_arctic.prefab
+										}
+										namespace exhibit_decor_pack
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_exhibitdecorpack_p = 1783513507; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/exhibit decor pack/menuui2_store_pageoverlay_exhibitdecorpack.prefab
+										}
+										namespace floor_and_ceiling_pack
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_floorandceilingpack_p = 3132452026; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/floor and ceiling pack/menuui2_store_pageoverlay_floorandceilingpack.prefab
+										}
+										namespace frontier
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_frontier_p = 2671453534; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/frontier/menuui2_store_pageoverlay_frontier.prefab
+										}
+										namespace frontiersman
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_frontiersman_p = 1324509894; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/frontiersman/menuui2_store_pageoverlay_frontiersman.prefab
+										}
+										namespace gesture_pack
+										{
+											constexpr uint32_t menuui2_store_general_pageoverlay_gesturepack_p = 3327685881; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/gesture pack/menuui2_store_general_pageoverlay_gesturepack.prefab
+										}
+										namespace graffiti
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_graffiti_p = 1462708317; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/graffiti/menuui2_store_pageoverlay_graffiti.prefab
+										}
+										namespace ice_king
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_iceking_p = 3359718920; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/ice king/menuui2_store_pageoverlay_iceking.prefab
+										}
+										namespace jungle
+										{
+											constexpr uint32_t menuui2_store_general_packshowcase_jungle_p = 1847532289; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/jungle/menuui2_store_general_packshowcase_jungle.prefab
+											constexpr uint32_t menuui2_store_pageoverlay_jungle_p = 1548650355; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/jungle/menuui2_store_pageoverlay_jungle.prefab
+										}
+										namespace lumberjack
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_lumberjack_p = 1225037095; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/lumberjack/menuui2_store_pageoverlay_lumberjack.prefab
+										}
+										namespace medieval_pack
+										{
+											constexpr uint32_t menuui2_store_general_showcase_medievalpack_p = 2947920535; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/medieval pack/menuui2_store_general_showcase_medievalpack.prefab
+											constexpr uint32_t menuui2_store_pageoverlay_medievalpack_p = 4181015887; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/medieval pack/menuui2_store_pageoverlay_medievalpack.prefab
+										}
+										namespace pilot_pack
+										{
+											constexpr uint32_t menuui2_store_general_showcase_pilotpack_p = 2119601276; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/pilot pack/menuui2_store_general_showcase_pilotpack.prefab
+											constexpr uint32_t menuui2_store_pageoverlay_pilotpack_p = 1742569575; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/pilot pack/menuui2_store_pageoverlay_pilotpack.prefab
+										}
+										namespace wallpaper_starter_pack
+										{
+											constexpr uint32_t menuui2_store_pageoverlay_wallpaperstarterpack_p = 665346711; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/_packs/wallpaper starter pack/menuui2_store_pageoverlay_wallpaperstarterpack.prefab
+										}
+									}
+									constexpr uint32_t menuui2_store_general_overlaycarouselbutton_p = 4106167107; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/menuui2_store_general_overlaycarouselbutton.prefab
+									constexpr uint32_t menuui2_store_pageoverlay_base_p = 79193058; // assets/bundled/prefabs/ui/menu2/_pages/store/general/packs/menuui2_store_pageoverlay_base.prefab
+								}
+							}
+							namespace limited
+							{
+								constexpr uint32_t menuui2_store_limited_p = 625161382; // assets/bundled/prefabs/ui/menu2/_pages/store/limited/menuui2_store_limited.prefab
+								constexpr uint32_t menuui2_store_limited_skinitem_p = 3573426735; // assets/bundled/prefabs/ui/menu2/_pages/store/limited/menuui2_store_limited_skinitem.prefab
+								constexpr uint32_t menuui2_store_limited_skinitem_featured_p = 4118511644; // assets/bundled/prefabs/ui/menu2/_pages/store/limited/menuui2_store_limited_skinitem_featured.prefab
+								constexpr uint32_t menuui2_store_skinmodal_p = 114332573; // assets/bundled/prefabs/ui/menu2/_pages/store/limited/menuui2_store_skinmodal.prefab
+							}
+							constexpr uint32_t menuui2_store_p = 2432557319; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store.prefab
+							constexpr uint32_t menuui2_store_addtocartbutton_large_p = 1976011200; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_addtocartbutton_large.prefab
+							constexpr uint32_t menuui2_store_addtocartbutton_small_p = 99051906; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_addtocartbutton_small.prefab
+							constexpr uint32_t menuui2_store_cart_p = 3509779741; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_cart.prefab
+							constexpr uint32_t menuui2_store_cartitem_p = 878516910; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_cartitem.prefab
+							constexpr uint32_t menuui2_store_headertitle_p = 1799470599; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_headertitle.prefab
+							constexpr uint32_t menuui2_store_headertitle_cart_p = 494201053; // assets/bundled/prefabs/ui/menu2/_pages/store/menuui2_store_headertitle_cart.prefab
+							namespace navigation
+							{
+								constexpr uint32_t menuui2_store_tabbutton_p = 2330476610; // assets/bundled/prefabs/ui/menu2/_pages/store/navigation/menuui2_store_tabbutton.prefab
+								constexpr uint32_t menuui2_store_tabsubbutton_p = 1376701192; // assets/bundled/prefabs/ui/menu2/_pages/store/navigation/menuui2_store_tabsubbutton.prefab
+							}
+							namespace skinviewer
+							{
+								constexpr uint32_t menuui2_fullscreenskinviewer_p = 3723372331; // assets/bundled/prefabs/ui/menu2/_pages/store/skinviewer/menuui2_fullscreenskinviewer.prefab
+								constexpr uint32_t skinviewer2_p = 3490249550; // assets/bundled/prefabs/ui/menu2/_pages/store/skinviewer/skinviewer2.prefab
+							}
+						}
+						namespace workshop
+						{
+							constexpr uint32_t menuui2_workshop_p = 1913108607; // assets/bundled/prefabs/ui/menu2/_pages/workshop/menuui2_workshop.prefab
+							constexpr uint32_t menuui2_workshop_dropdownitem_p = 1032178139; // assets/bundled/prefabs/ui/menu2/_pages/workshop/menuui2_workshop_dropdownitem.prefab
+							constexpr uint32_t menuui2_workshop_itembutton_p = 842389720; // assets/bundled/prefabs/ui/menu2/_pages/workshop/menuui2_workshop_itembutton.prefab
+							constexpr uint32_t menuui2_workshop_myitembutton_p = 1812315879; // assets/bundled/prefabs/ui/menu2/_pages/workshop/menuui2_workshop_myitembutton.prefab
+						}
+					}
+					namespace _particles
+					{
+						constexpr uint32_t favouritingparticles_p = 4097372565; // assets/bundled/prefabs/ui/menu2/_particles/favouritingparticles.prefab
+					}
+					constexpr uint32_t menuui2_p = 1563342739; // assets/bundled/prefabs/ui/menu2/menuui2.prefab
+					constexpr uint32_t menuui2_bootstrap_p = 3048762713; // assets/bundled/prefabs/ui/menu2/menuui2_bootstrap.prefab
 				}
 				constexpr uint32_t menuui_p = 1237378647; // assets/bundled/prefabs/ui/menuui.prefab
 				namespace oven
@@ -4210,6 +4533,11 @@ namespace assets
 				}
 				constexpr uint32_t skinviewer_p = 459310860; // assets/bundled/prefabs/ui/skinviewer.prefab
 				constexpr uint32_t skinviewer_nospin_p = 3575266285; // assets/bundled/prefabs/ui/skinviewer_nospin.prefab
+				namespace sorting
+				{
+					constexpr uint32_t sortingicon_p = 3097700644; // assets/bundled/prefabs/ui/sorting/sortingicon.prefab
+					constexpr uint32_t sortroot_p = 791225612; // assets/bundled/prefabs/ui/sorting/sortroot.prefab
+				}
 				constexpr uint32_t squareborder_p = 3170718129; // assets/bundled/prefabs/ui/squareborder.prefab
 				constexpr uint32_t vendorlist_p = 2735538861; // assets/bundled/prefabs/ui/vendorlist.prefab
 			}
@@ -4512,6 +4840,7 @@ namespace assets
 					constexpr uint32_t muzzle_flash_shotgun_braked_p = 1179659337; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_braked.prefab
 					constexpr uint32_t muzzle_flash_shotgun_narrow_p = 1780797640; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_narrow.prefab
 					constexpr uint32_t muzzle_flash_shotgun_powdery_p = 1514316954; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_powdery.prefab
+					constexpr uint32_t muzzle_flash_shotgun_powerful_p = 288640569; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_powerful.prefab
 					constexpr uint32_t muzzle_flash_shotgun_silenced_p = 1898273799; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_silenced.prefab
 					constexpr uint32_t muzzle_flash_shotgun_wide_p = 1888111498; // assets/content/effects/muzzleflashes/shotgun/muzzle_flash_shotgun_wide.prefab
 					constexpr uint32_t shell_eject_shotgun_p = 2989651955; // assets/content/effects/muzzleflashes/shotgun/shell_eject_shotgun.prefab
@@ -7761,6 +8090,7 @@ namespace assets
 				constexpr uint32_t footstep_hard_sound_template_p = 1648949566; // assets/content/sound/templates/footstep-hard.sound-template.prefab
 				constexpr uint32_t footstep_light_sound_template_p = 3648658576; // assets/content/sound/templates/footstep-light.sound-template.prefab
 				constexpr uint32_t footstep_med_sound_template_p = 2208853051; // assets/content/sound/templates/footstep-med.sound-template.prefab
+				constexpr uint32_t global_directional_p = 1742749468; // assets/content/sound/templates/global-directional.prefab
 				constexpr uint32_t gunshot_p = 4162643679; // assets/content/sound/templates/gunshot.prefab
 				constexpr uint32_t instrument_longrange_p = 488777134; // assets/content/sound/templates/instrument-longrange.prefab
 				constexpr uint32_t instrument_shortrange_p = 4192939044; // assets/content/sound/templates/instrument-shortrange.prefab
@@ -10279,6 +10609,11 @@ namespace assets
 				constexpr uint32_t engineui_loadingscreen_p = 2077281196; // assets/content/ui/engineui/engineui.loadingscreen.prefab
 				constexpr uint32_t engineui_netgraph_p = 1775871081; // assets/content/ui/engineui/engineui.netgraph.prefab
 				constexpr uint32_t engineui_serveradmin_p = 3030818048; // assets/content/ui/engineui/engineui.serveradmin.prefab
+				namespace items
+				{
+					constexpr uint32_t engineui_itembutton_p = 1264553746; // assets/content/ui/engineui/items/engineui.itembutton.prefab
+					constexpr uint32_t engineui_vehiclebutton_p = 4211122585; // assets/content/ui/engineui/items/engineui.vehiclebutton.prefab
+				}
 				namespace netgraph
 				{
 					constexpr uint32_t netgraphrow_p = 873270571; // assets/content/ui/engineui/netgraph/netgraphrow.prefab
@@ -10303,6 +10638,7 @@ namespace assets
 			namespace filedialog
 			{
 				constexpr uint32_t drivesscrollrectelement_p = 3004442589; // assets/content/ui/filedialog/drivesscrollrectelement.prefab
+				constexpr uint32_t favouritepathbutton_p = 2625646466; // assets/content/ui/filedialog/favouritepathbutton.prefab
 				constexpr uint32_t filedialog_p = 3620818556; // assets/content/ui/filedialog/filedialog.prefab
 				constexpr uint32_t filesscrollrectelement_p = 1565446264; // assets/content/ui/filedialog/filesscrollrectelement.prefab
 				constexpr uint32_t uifileselector_p = 3825539129; // assets/content/ui/filedialog/uifileselector.prefab
@@ -10359,7 +10695,6 @@ namespace assets
 					constexpr uint32_t popuplistitem_p = 383074195; // assets/content/ui/gameui/aidesigner/popuplistitem.prefab
 					constexpr uint32_t state_p = 2987891224; // assets/content/ui/gameui/aidesigner/state.prefab
 				}
-				constexpr uint32_t bufficon_p = 1057838189; // assets/content/ui/gameui/bufficon.prefab
 				namespace camera
 				{
 					constexpr uint32_t gameui_hud_cameraoverlay_p = 2348596548; // assets/content/ui/gameui/camera/gameui.hud.cameraoverlay.prefab
@@ -10389,11 +10724,13 @@ namespace assets
 					constexpr uint32_t gameui_hud_crosshair_farmableanimal_p = 2173371997; // assets/content/ui/gameui/crosshair/gameui.hud.crosshair.farmableanimal.prefab
 					constexpr uint32_t gameui_hud_crosshair_interaction_p = 632616762; // assets/content/ui/gameui/crosshair/gameui.hud.crosshair.interaction.prefab
 					constexpr uint32_t gameui_hud_crosshair_p = 2262325522; // assets/content/ui/gameui/crosshair/gameui.hud.crosshair.prefab
+					constexpr uint32_t gameui_hud_crosshair_sleepingbagname_p = 2927546818; // assets/content/ui/gameui/crosshair/gameui.hud.crosshair.sleepingbagname.prefab
 					namespace io
 					{
 						constexpr uint32_t gameui_hud_crosshair_ioentity_info_p = 1399004161; // assets/content/ui/gameui/crosshair/io/gameui.hud.crosshair.ioentity.info.prefab
 						constexpr uint32_t gameui_hud_crosshair_ioentity_p = 2505869383; // assets/content/ui/gameui/crosshair/io/gameui.hud.crosshair.ioentity.prefab
 					}
+					constexpr uint32_t reticle_p = 3864272120; // assets/content/ui/gameui/crosshair/reticle.prefab
 				}
 				namespace farming
 				{
@@ -10402,6 +10739,10 @@ namespace assets
 						constexpr uint32_t gene_p = 2462060899; // assets/content/ui/gameui/farming/plantinfo/gene.prefab
 						constexpr uint32_t infobar_p = 245570763; // assets/content/ui/gameui/farming/plantinfo/infobar.prefab
 					}
+				}
+				namespace fogofwar
+				{
+					constexpr uint32_t fogofwartile_p = 156839795; // assets/content/ui/gameui/fogofwar/fogofwartile.prefab
 				}
 				constexpr uint32_t frankensteinpartinformation_p = 1599005639; // assets/content/ui/gameui/frankensteinpartinformation.prefab
 				constexpr uint32_t gameui_ai_p = 1640524265; // assets/content/ui/gameui/gameui.ai.prefab
@@ -10421,7 +10762,6 @@ namespace assets
 				constexpr uint32_t gameui_hud_achievements_p = 1316769265; // assets/content/ui/gameui/gameui.hud.achievements.prefab
 				constexpr uint32_t gameui_hud_beltbar_p = 134534687; // assets/content/ui/gameui/gameui.hud.beltbar.prefab
 				constexpr uint32_t gameui_hud_binocularoverlay_p = 2229853826; // assets/content/ui/gameui/gameui.hud.binocularoverlay.prefab
-				constexpr uint32_t gameui_hud_buffs_p = 1824384121; // assets/content/ui/gameui/gameui.hud.buffs.prefab
 				constexpr uint32_t gameui_hud_chat_p = 48283184; // assets/content/ui/gameui/gameui.hud.chat.prefab
 				constexpr uint32_t gameui_hud_compassmapmarker_mission_p = 518353531; // assets/content/ui/gameui/gameui.hud.compassmapmarker.mission.prefab
 				constexpr uint32_t gameui_hud_compassmapmarker_p = 195106654; // assets/content/ui/gameui/gameui.hud.compassmapmarker.prefab
@@ -10433,8 +10773,10 @@ namespace assets
 				constexpr uint32_t gameui_hud_fullblack_p = 2207024032; // assets/content/ui/gameui/gameui.hud.fullblack.prefab
 				constexpr uint32_t gameui_hud_fullwhite_p = 3000639651; // assets/content/ui/gameui/gameui.hud.fullwhite.prefab
 				constexpr uint32_t gameui_hud_gametip_p = 1718201350; // assets/content/ui/gameui/gameui.hud.gametip.prefab
+				constexpr uint32_t gameui_hud_godoverlay_p = 908617746; // assets/content/ui/gameui/gameui.hud.godoverlay.prefab
 				constexpr uint32_t gameui_hud_goggleoverlay_p = 1373552916; // assets/content/ui/gameui/gameui.hud.goggleoverlay.prefab
 				constexpr uint32_t gameui_hud_helmetslitoverlay_p = 2636690856; // assets/content/ui/gameui/gameui.hud.helmetslitoverlay.prefab
+				constexpr uint32_t gameui_hud_invisoverlay_p = 3890805871; // assets/content/ui/gameui/gameui.hud.invisoverlay.prefab
 				constexpr uint32_t gameui_hud_localvoicechat_p = 1081085806; // assets/content/ui/gameui/gameui.hud.localvoicechat.prefab
 				constexpr uint32_t gameui_hud_map_nexus_connections_p = 48230410; // assets/content/ui/gameui/gameui.hud.map.nexus.connections.prefab
 				constexpr uint32_t gameui_hud_map_nexus_p = 1777012536; // assets/content/ui/gameui/gameui.hud.map.nexus.prefab
@@ -10482,6 +10824,11 @@ namespace assets
 						constexpr uint32_t ui_infopanel_constructable_p = 385658605; // assets/content/ui/gameui/iteminfopanel/constructable/ui.infopanel.constructable.prefab
 					}
 				}
+				namespace itemstatdisplays
+				{
+					constexpr uint32_t itemmodifiablestatvalueslider_p = 2348958748; // assets/content/ui/gameui/itemstatdisplays/itemmodifiablestatvalueslider.prefab
+					constexpr uint32_t itemstatvalueslider_p = 2168219448; // assets/content/ui/gameui/itemstatdisplays/itemstatvalueslider.prefab
+				}
 				namespace missions
 				{
 					constexpr uint32_t missionobjectiveitem_p = 115292772; // assets/content/ui/gameui/missions/missionobjectiveitem.prefab
@@ -10507,6 +10854,7 @@ namespace assets
 				constexpr uint32_t tooltip_p = 1895126584; // assets/content/ui/gameui/tooltip.prefab
 				constexpr uint32_t tooltip_alwaysontop_p = 559319399; // assets/content/ui/gameui/tooltip_alwaysontop.prefab
 				constexpr uint32_t tooltip_alwaysontop_emoji_p = 897705215; // assets/content/ui/gameui/tooltip_alwaysontop_emoji.prefab
+				constexpr uint32_t tooltip_menuui2_p = 4039759966; // assets/content/ui/gameui/tooltip_menuui2.prefab
 				namespace tutorialhelp
 				{
 					constexpr uint32_t gameui_hud_tutorialpopup_p = 224797886; // assets/content/ui/gameui/tutorialhelp/gameui.hud.tutorialpopup.prefab
@@ -10574,8 +10922,6 @@ namespace assets
 					constexpr uint32_t ui_damage_funwater_p = 2204728910; // assets/content/ui/gameui/underlays/ui.damage.funwater.prefab
 				}
 				constexpr uint32_t weaponrackinfo_p = 3229057214; // assets/content/ui/gameui/weaponrackinfo.prefab
-				constexpr uint32_t workshopitembutton_p = 2486202701; // assets/content/ui/gameui/workshopitembutton.prefab
-				constexpr uint32_t workshopitemrow_p = 150869484; // assets/content/ui/gameui/workshopitemrow.prefab
 			}
 			namespace menuui
 			{
@@ -10587,6 +10933,7 @@ namespace assets
 						constexpr uint32_t friends_list_player_p = 2435278000; // assets/content/ui/menuui/friendslist/_prefabs/friends-list_player.prefab
 						constexpr uint32_t party_invite_p = 213755390; // assets/content/ui/menuui/friendslist/_prefabs/party_invite.prefab
 						constexpr uint32_t party_list_player_p = 3629677806; // assets/content/ui/menuui/friendslist/_prefabs/party-list_player.prefab
+						constexpr uint32_t party_list_player_footer_p = 2587999638; // assets/content/ui/menuui/friendslist/_prefabs/party-list_player_footer.prefab
 					}
 					constexpr uint32_t menuui_friendslist_p = 1431909971; // assets/content/ui/menuui/friendslist/menuui.friendslist.prefab
 				}
@@ -10601,370 +10948,8 @@ namespace assets
 					constexpr uint32_t menuui_help_category_p = 1245921002; // assets/content/ui/menuui/help/menuui.help.category.prefab
 					constexpr uint32_t menuui_help_content_p = 3778043884; // assets/content/ui/menuui/help/menuui.help.content.prefab
 				}
-				namespace itemstore
-				{
-					namespace _prefabs
-					{
-						constexpr uint32_t divider_p = 474945242; // assets/content/ui/menuui/itemstore/_prefabs/divider.prefab
-						constexpr uint32_t itemstore_backbutton_p = 480484842; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.backbutton.prefab
-						constexpr uint32_t itemstore_buybutton_p = 3761787229; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.buybutton.prefab
-						constexpr uint32_t itemstore_containeditems_p = 207501450; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.containeditems.prefab
-						constexpr uint32_t itemstore_item_armor_p = 2377441699; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.item.armor.prefab
-						constexpr uint32_t itemstore_item_decor_p = 3905164229; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.item.decor.prefab
-						constexpr uint32_t itemstore_item_default_p = 3483127236; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.item.default.prefab
-						constexpr uint32_t itemstore_item_image_p = 1323526910; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.item.image.prefab
-						constexpr uint32_t itemstore_item_weapon_p = 795443061; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.item.weapon.prefab
-						constexpr uint32_t itemstore_pagebody_p = 471540106; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.pagebody.prefab
-						constexpr uint32_t itemstore_pagedescription_p = 2593639260; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.pagedescription.prefab
-						constexpr uint32_t itemstore_pagefooter_p = 1287401115; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.pagefooter.prefab
-						constexpr uint32_t itemstore_pageheader_p = 3272763069; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.pageheader.prefab
-						constexpr uint32_t itemstore_pagemedia_p = 1298473963; // assets/content/ui/menuui/itemstore/_prefabs/itemstore.pagemedia.prefab
-						constexpr uint32_t menuui_itemstore_default_p = 984700430; // assets/content/ui/menuui/itemstore/_prefabs/menuui.itemstore.default.prefab
-					}
-					namespace building_skins
-					{
-						namespace adobe
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_adobe_p = 334181169; // assets/content/ui/menuui/itemstore/building skins/adobe/menuui.itemstore.buildingskin.adobe.prefab
-						}
-						namespace adobe_externalwallsandgate
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_adobe_externalwallsandgate_p = 2255530036; // assets/content/ui/menuui/itemstore/building skins/adobe_externalwallsandgate/menuui.itemstore.buildingskin.adobe_externalwallsandgate.prefab
-						}
-						namespace brick
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_brick_p = 1402897664; // assets/content/ui/menuui/itemstore/building skins/brick/menuui.itemstore.buildingskin.brick.prefab
-						}
-						namespace brutalist
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_brutalist_p = 1873905740; // assets/content/ui/menuui/itemstore/building skins/brutalist/menuui.itemstore.buildingskin.brutalist.prefab
-						}
-						namespace jungle
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_jungle_p = 2647019775; // assets/content/ui/menuui/itemstore/building skins/jungle/menuui.itemstore.buildingskin.jungle.prefab
-						}
-						namespace legacywood
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_legacywood_p = 2712323055; // assets/content/ui/menuui/itemstore/building skins/legacywood/menuui.itemstore.buildingskin.legacywood.prefab
-						}
-						namespace legacywood_externalwallsandgate
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_legacywood_externalwallsandgate_p = 86570782; // assets/content/ui/menuui/itemstore/building skins/legacywood_externalwallsandgate/menuui.itemstore.buildingskin.legacywood_externalwallsandgate.prefab
-						}
-						namespace shippingcontainer
-						{
-							constexpr uint32_t menuui_itemstore_buildingskin_shippingcontainer_p = 2440418250; // assets/content/ui/menuui/itemstore/building skins/shippingcontainer/menuui.itemstore.buildingskin.shippingcontainer.prefab
-						}
-					}
-					namespace dlc
-					{
-						namespace instruments
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_instruments_canbourine_p = 1937951141; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_canbourine.prefab
-								constexpr uint32_t itempreview_instruments_cowbell_p = 3803141472; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_cowbell.prefab
-								constexpr uint32_t itempreview_instruments_jerrycanguitar_p = 1386798995; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_jerrycanguitar.prefab
-								constexpr uint32_t itempreview_instruments_junkyarddrumkit_p = 173587350; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_junkyarddrumkit.prefab
-								constexpr uint32_t itempreview_instruments_panflute_p = 1532241205; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_panflute.prefab
-								constexpr uint32_t itempreview_instruments_plumbertrumpet_p = 3865455358; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_plumbertrumpet.prefab
-								constexpr uint32_t itempreview_instruments_shovelbass_p = 664039768; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_shovelbass.prefab
-								constexpr uint32_t itempreview_instruments_sousaphone_p = 1153169891; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_sousaphone.prefab
-								constexpr uint32_t itempreview_instruments_wheelbarrowpiano_p = 3622509133; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_wheelbarrowpiano.prefab
-								constexpr uint32_t itempreview_instruments_xylobone_p = 3994559958; // assets/content/ui/menuui/itemstore/dlc/instruments/_previews/itempreview_instruments_xylobone.prefab
-							}
-							constexpr uint32_t menuui_itemstore_dlc_instruments_p = 1452565906; // assets/content/ui/menuui/itemstore/dlc/instruments/menuui.itemstore.dlc.instruments.prefab
-						}
-						namespace soundtrack
-						{
-							namespace _prefabs
-							{
-								constexpr uint32_t tracklist_row_p = 2194025624; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_prefabs/tracklist_row.prefab
-								constexpr uint32_t tracklist_row_alt_p = 2855141500; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_prefabs/tracklist_row_alt.prefab
-							}
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_instruments_canbourine_p = 1368212286; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_canbourine.prefab
-								constexpr uint32_t itempreview_instruments_cowbell_p = 4122279545; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_cowbell.prefab
-								constexpr uint32_t itempreview_instruments_jerrycanguitar_p = 3875198382; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_jerrycanguitar.prefab
-								constexpr uint32_t itempreview_instruments_junkyarddrumkit_p = 2920055184; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_junkyarddrumkit.prefab
-								constexpr uint32_t itempreview_instruments_panflute_p = 686089082; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_panflute.prefab
-								constexpr uint32_t itempreview_instruments_plumbertrumpet_p = 176020561; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_plumbertrumpet.prefab
-								constexpr uint32_t itempreview_instruments_shovelbass_p = 3669431240; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_shovelbass.prefab
-								constexpr uint32_t itempreview_instruments_sousaphone_p = 2315718625; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_sousaphone.prefab
-								constexpr uint32_t itempreview_instruments_wheelbarrowpiano_p = 2288215683; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_wheelbarrowpiano.prefab
-								constexpr uint32_t itempreview_instruments_xylobone_p = 1393970862; // assets/content/ui/menuui/itemstore/dlc/soundtrack/_previews/itempreview_instruments_xylobone.prefab
-							}
-							constexpr uint32_t menuui_itemstore_dlc_soundtrack_p = 3034666454; // assets/content/ui/menuui/itemstore/dlc/soundtrack/menuui.itemstore.dlc.soundtrack.prefab
-						}
-						namespace sunburn
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_sunburn_beachchairmultiple_p = 1415593522; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_beachchairmultiple.prefab
-								constexpr uint32_t itempreview_sunburn_beachtable_p = 2296505738; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_beachtable.prefab
-								constexpr uint32_t itempreview_sunburn_boogieboardmultiple_p = 176905537; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_boogieboardmultiple.prefab
-								constexpr uint32_t itempreview_sunburn_innertubemultiple_p = 1397849579; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_innertubemultiple.prefab
-								constexpr uint32_t itempreview_sunburn_instantcamera_p = 932312169; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_instantcamera.prefab
-								constexpr uint32_t itempreview_sunburn_paddlingpoolmultiple_p = 977603766; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_paddlingpoolmultiple.prefab
-								constexpr uint32_t itempreview_sunburn_parasol_p = 3619487084; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_parasol.prefab
-								constexpr uint32_t itempreview_sunburn_parasolmultiple_p = 3364358335; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_parasolmultiple.prefab
-								constexpr uint32_t itempreview_sunburn_sunglasses1multiple_p = 2557837327; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_sunglasses1multiple.prefab
-								constexpr uint32_t itempreview_sunburn_sunglasses2multiple_p = 2598921651; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_sunglasses2multiple.prefab
-								constexpr uint32_t itempreview_sunburn_sunglasses3multiple_p = 31467680; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_sunglasses3multiple.prefab
-								constexpr uint32_t itempreview_sunburn_underwear_p = 859712432; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_underwear.prefab
-								constexpr uint32_t itempreview_sunburn_watergunmultple_p = 2857663121; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_watergunmultple.prefab
-								constexpr uint32_t itempreview_sunburn_waterpistol_p = 3752692882; // assets/content/ui/menuui/itemstore/dlc/sunburn/_previews/itempreview_sunburn_waterpistol.prefab
-							}
-							constexpr uint32_t menuui_itemstore_dlc_sunburn_p = 949572975; // assets/content/ui/menuui/itemstore/dlc/sunburn/menuui.itemstore.dlc.sunburn.prefab
-						}
-						namespace voiceprops
-						{
-							namespace _previews
-							{
-								namespace dances
-								{
-									constexpr uint32_t itempreview_voiceprops_hazmat_p = 3700263126; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/dances/itempreview_voiceprops_hazmat.prefab
-									constexpr uint32_t itempreview_voiceprops_hiphopdance_p = 3872989546; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/dances/itempreview_voiceprops_hiphopdance.prefab
-									constexpr uint32_t itempreview_voiceprops_sillydancing_p = 3628735158; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/dances/itempreview_voiceprops_sillydancing.prefab
-									constexpr uint32_t itempreview_voiceprops_sillydancing2_p = 265160844; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/dances/itempreview_voiceprops_sillydancing2.prefab
-									constexpr uint32_t itempreview_voiceprops_testdance_p = 1507108734; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/dances/itempreview_voiceprops_testdance.prefab
-								}
-								constexpr uint32_t itempreview_voiceprops_boombox_p = 2737660047; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_boombox.prefab
-								constexpr uint32_t itempreview_voiceprops_carradio_p = 542340773; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_carradio.prefab
-								constexpr uint32_t itempreview_voiceprops_cassetterecorder_p = 1506131486; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_cassetterecorder.prefab
-								constexpr uint32_t itempreview_voiceprops_cassettes_p = 595668807; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_cassettes.prefab
-								constexpr uint32_t itempreview_voiceprops_connectedspeaker_p = 3379231870; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_connectedspeaker.prefab
-								constexpr uint32_t itempreview_voiceprops_dancefloor_p = 3256924303; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_dancefloor.prefab
-								constexpr uint32_t itempreview_voiceprops_discoball_p = 1725102427; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_discoball.prefab
-								constexpr uint32_t itempreview_voiceprops_megaphone_p = 986516635; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_megaphone.prefab
-								constexpr uint32_t itempreview_voiceprops_microphonestand_p = 3260370067; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_microphonestand.prefab
-								constexpr uint32_t itempreview_voiceprops_mobilephone_p = 3646369619; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_mobilephone.prefab
-								constexpr uint32_t itempreview_voiceprops_musiclasers_p = 743504414; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_musiclasers.prefab
-								constexpr uint32_t itempreview_voiceprops_musiclight_p = 3157372772; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_musiclight.prefab
-								constexpr uint32_t itempreview_voiceprops_portableboombox_p = 3054235644; // assets/content/ui/menuui/itemstore/dlc/voiceprops/_previews/itempreview_voiceprops_portableboombox.prefab
-							}
-							constexpr uint32_t menuui_itemstore_dlc_voiceprops_p = 2955956281; // assets/content/ui/menuui/itemstore/dlc/voiceprops/menuui.itemstore.dlc.voiceprops.prefab
-						}
-					}
-					namespace hazmat_skins
-					{
-						namespace nomad
-						{
-							constexpr uint32_t menuui_itemstore_hazmatskin_nomad_p = 3938459714; // assets/content/ui/menuui/itemstore/hazmat skins/nomad/menuui.itemstore.hazmatskin.nomad.prefab
-						}
-					}
-					constexpr uint32_t itemstore_cartitem_p = 1105988359; // assets/content/ui/menuui/itemstore/itemstore.cartitem.prefab
-					constexpr uint32_t itemstore_itemlist_p = 670534588; // assets/content/ui/menuui/itemstore/itemstore.itemlist.prefab
-					constexpr uint32_t itemstore_storeitem_default_p = 3651144611; // assets/content/ui/menuui/itemstore/itemstore.storeitem.default.prefab
-					constexpr uint32_t itemstore_storeitem_dlc_p = 2828982571; // assets/content/ui/menuui/itemstore/itemstore.storeitem.dlc.prefab
-					constexpr uint32_t itemstore_storeitem_image_p = 169161440; // assets/content/ui/menuui/itemstore/itemstore.storeitem.image.prefab
-					constexpr uint32_t menuui_itemstore_pack_generic_p = 2239615922; // assets/content/ui/menuui/itemstore/menuui.itemstore.pack-generic.prefab
-					constexpr uint32_t menuui_itemstore_p = 4110631083; // assets/content/ui/menuui/itemstore/menuui.itemstore.prefab
-					namespace misc
-					{
-						namespace coconut_underwear
-						{
-							constexpr uint32_t menuui_itemstore_misc_coconutunderwear_p = 2779450000; // assets/content/ui/menuui/itemstore/misc/coconut underwear/menuui.itemstore.misc.coconutunderwear.prefab
-						}
-						namespace easter
-						{
-							namespace _previews
-							{
-								namespace _2025
-								{
-									constexpr uint32_t faberge_egg_g_deployed 1_p = 2405462017; // assets/content/ui/menuui/itemstore/misc/easter/_previews/2025/faberge_egg_g.deployed 1.prefab
-									constexpr uint32_t horse_costume 1_p = 1716815439; // assets/content/ui/menuui/itemstore/misc/easter/_previews/2025/horse.costume 1.prefab
-								}
-							}
-						}
-						namespace factory_door
-						{
-							constexpr uint32_t menuui_itemstore_misc_factorydoor_p = 1348016041; // assets/content/ui/menuui/itemstore/misc/factory door/menuui.itemstore.misc.factorydoor.prefab
-						}
-						namespace industrial_lights
-						{
-							constexpr uint32_t menuui_itemstore_misc_industriallights_p = 849599095; // assets/content/ui/menuui/itemstore/misc/industrial lights/menuui.itemstore.misc.industriallights.prefab
-						}
-						namespace pattern_boomer
-						{
-							constexpr uint32_t menuui_itemstore_misc_patternboomer_p = 2666040631; // assets/content/ui/menuui/itemstore/misc/pattern boomer/menuui.itemstore.misc.patternboomer.prefab
-						}
-						namespace pattern_sofa
-						{
-							constexpr uint32_t menuui_itemstore_misc_patternsofa_p = 3989049425; // assets/content/ui/menuui/itemstore/misc/pattern sofa/menuui.itemstore.misc.patternsofa.prefab
-						}
-						namespace tool_cupboard___retro
-						{
-							constexpr uint32_t menuui_itemstore_misc_toolcupboardretro_p = 2432137681; // assets/content/ui/menuui/itemstore/misc/tool cupboard - retro/menuui.itemstore.misc.toolcupboardretro.prefab
-						}
-						namespace weapon_racks
-						{
-							constexpr uint32_t menuui_itemstore_misc_weaponracks_p = 2950582180; // assets/content/ui/menuui/itemstore/misc/weapon racks/menuui.itemstore.misc.weaponracks.prefab
-						}
-					}
-					namespace packs
-					{
-						namespace abyss
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_abyss_barrels_p = 340814594; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_barrels.prefab
-								constexpr uint32_t itempreview_abyss_hatchet_p = 1052149985; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_hatchet.prefab
-								constexpr uint32_t itempreview_abyss_pickaxe_p = 206877722; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_pickaxe.prefab
-								constexpr uint32_t itempreview_abyss_rifle_p = 4033864117; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_rifle.prefab
-								constexpr uint32_t itempreview_abyss_sunkenknife_p = 2934589089; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_sunkenknife.prefab
-								constexpr uint32_t itempreview_abyss_torch_p = 1566126419; // assets/content/ui/menuui/itemstore/packs/abyss/_previews/itempreview_abyss_torch.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_abyss_p = 2852014074; // assets/content/ui/menuui/itemstore/packs/abyss/menuui.itemstore.pack.abyss.prefab
-						}
-						namespace arctic
-						{
-							constexpr uint32_t menuui_itemstore_pack_arctic_p = 398235018; // assets/content/ui/menuui/itemstore/packs/arctic/menuui.itemstore.pack.arctic.prefab
-						}
-						namespace floor_and_ceiling_pack
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_wallpaper_bluediamond_a_p = 260007892; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_bluediamond_a.prefab
-								constexpr uint32_t itempreview_wallpaper_clouds_a_p = 582196306; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_clouds_a.prefab
-								constexpr uint32_t itempreview_wallpaper_geometric_variants_p = 92928316; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_geometric_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_polka_variants_p = 1572031503; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_polka_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_retro_variants_p = 1989640023; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_retro_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_royal_variants_p = 2572523222; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_royal_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_subway_variants_p = 1847533409; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_subway_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_venetianplaster_variants_p = 754587115; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_venetianplaster_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_wainscotting_variants_p = 4272676548; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_wainscotting_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_yellowstripe_a_p = 883140523; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/_previews/itempreview_wallpaper_yellowstripe_a.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_floorandceilingpack_p = 200668361; // assets/content/ui/menuui/itemstore/packs/floor and ceiling pack/menuui.itemstore.pack.floorandceilingpack.prefab
-						}
-						namespace frontier
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_frontier_fishtrophy_p = 1974442982; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_fishtrophy.prefab
-								constexpr uint32_t itempreview_frontier_huntingtrophy_p = 1943596640; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_huntingtrophy.prefab
-								constexpr uint32_t itempreview_frontier_planters_p = 4151223911; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_planters.prefab
-								constexpr uint32_t itempreview_frontier_rockingchair_p = 3592483580; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_rockingchair.prefab
-								constexpr uint32_t itempreview_frontier_skinningknife_p = 1678540829; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_skinningknife.prefab
-								constexpr uint32_t itempreview_frontier_storagebarrel_p = 3943347491; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_storagebarrel.prefab
-								constexpr uint32_t itempreview_frontier_torchholder_p = 4065394404; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_torchholder.prefab
-								constexpr uint32_t itempreview_frontier_triangleplanter_p = 1286917114; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_triangleplanter.prefab
-								constexpr uint32_t itempreview_frontier_wantedposter_p = 1077368630; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_wantedposter.prefab
-								constexpr uint32_t itempreview_frontier_weaponrack_p = 2842403379; // assets/content/ui/menuui/itemstore/packs/frontier/_previews/itempreview_frontier_weaponrack.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_frontier_p = 2695333068; // assets/content/ui/menuui/itemstore/packs/frontier/menuui.itemstore.pack.frontier.prefab
-						}
-						namespace frontiersman
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_frontiersman_blunderbuss_p = 3673777864; // assets/content/ui/menuui/itemstore/packs/frontiersman/_previews/itempreview_frontiersman_blunderbuss.prefab
-								constexpr uint32_t itempreview_frontiersman_hatchet_p = 2466984170; // assets/content/ui/menuui/itemstore/packs/frontiersman/_previews/itempreview_frontiersman_hatchet.prefab
-								constexpr uint32_t itempreview_hazmat_frontiersman_p = 2336643046; // assets/content/ui/menuui/itemstore/packs/frontiersman/_previews/itempreview_hazmat_frontiersman.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_frontiersman_p = 1208110390; // assets/content/ui/menuui/itemstore/packs/frontiersman/menuui.itemstore.pack.frontiersman.prefab
-						}
-						namespace gesture_pack
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_gesture_cutthroat_p = 2544370415; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_cutthroat.prefab
-								constexpr uint32_t itempreview_gesture_fingergun_p = 1025169240; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_fingergun.prefab
-								constexpr uint32_t itempreview_gesture_knucklecrack_p = 3183457755; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_knucklecrack.prefab
-								constexpr uint32_t itempreview_gesture_loser_p = 1399760350; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_loser.prefab
-								constexpr uint32_t itempreview_gesture_nono_p = 3142409162; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_nono.prefab
-								constexpr uint32_t itempreview_gesture_rps_p = 3591118093; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_rps.prefab
-								constexpr uint32_t itempreview_gesture_shush_p = 3623267570; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_shush.prefab
-								constexpr uint32_t itempreview_gesture_watchingyou_p = 1292954084; // assets/content/ui/menuui/itemstore/packs/gesture pack/_previews/itempreview_gesture_watchingyou.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_gesturepack_p = 1938253618; // assets/content/ui/menuui/itemstore/packs/gesture pack/menuui.itemstore.pack.gesturepack.prefab
-						}
-						namespace graffiti
-						{
-							constexpr uint32_t menuui_itemstore_pack_graffiti_p = 1019720228; // assets/content/ui/menuui/itemstore/packs/graffiti/menuui.itemstore.pack.graffiti.prefab
-						}
-						namespace ice_king
-						{
-							constexpr uint32_t menuui_itemstore_pack_iceking_p = 40660937; // assets/content/ui/menuui/itemstore/packs/ice king/menuui.itemstore.pack.iceking.prefab
-						}
-						namespace jungle
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_jungle_assaultrifle_p = 2167079502; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_assaultrifle.prefab
-								constexpr uint32_t itempreview_jungle_barrels_p = 3765443126; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_barrels.prefab
-								constexpr uint32_t itempreview_jungle_cocoknight_chest_p = 1008751697; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_cocoknight_chest.prefab
-								constexpr uint32_t itempreview_jungle_cocoknight_gloves_p = 503310907; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_cocoknight_gloves.prefab
-								constexpr uint32_t itempreview_jungle_cocoknight_helmet_p = 220930319; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_cocoknight_helmet.prefab
-								constexpr uint32_t itempreview_jungle_cocoknight_legs_p = 3059428076; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_cocoknight_legs.prefab
-								constexpr uint32_t itempreview_jungle_hazmat_p = 2809691067; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_hazmat.prefab
-								constexpr uint32_t itempreview_jungle_obsidianboneknife_p = 2625524667; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_obsidianboneknife.prefab
-								constexpr uint32_t itempreview_jungle_rock_p = 3429503785; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_rock.prefab
-								constexpr uint32_t itempreview_jungle_shelves_p = 2758675235; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_shelves.prefab
-								constexpr uint32_t itempreview_jungle_shelves_half_p = 3908229301; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_shelves_half.prefab
-								constexpr uint32_t itempreview_jungle_shelves_single_p = 4047007996; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_jungle_shelves_single.prefab
-								constexpr uint32_t itempreview_wallpaper_jungle_p = 3441936312; // assets/content/ui/menuui/itemstore/packs/jungle/_previews/itempreview_wallpaper_jungle.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_jungle_p = 52444433; // assets/content/ui/menuui/itemstore/packs/jungle/menuui.itemstore.pack.jungle.prefab
-						}
-						namespace lumberjack
-						{
-							constexpr uint32_t menuui_itemstore_pack_lumberjack_p = 3892554153; // assets/content/ui/menuui/itemstore/packs/lumberjack/menuui.itemstore.pack.lumberjack.prefab
-						}
-						namespace medieval_pack
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_medievalpack_assaultrifle_p = 513195874; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_assaultrifle.prefab
-								constexpr uint32_t itempreview_medievalpack_knightchestplate_p = 4226236670; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_knightchestplate.prefab
-								constexpr uint32_t itempreview_medievalpack_knighthelmet_p = 3788353423; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_knighthelmet.prefab
-								constexpr uint32_t itempreview_medievalpack_knightkilt_p = 982159319; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_knightkilt.prefab
-								constexpr uint32_t itempreview_medievalpack_largewoodbox_p = 1597205398; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_largewoodbox.prefab
-								constexpr uint32_t itempreview_medievalpack_metalbarricade_p = 1137447956; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_metalbarricade.prefab
-								constexpr uint32_t itempreview_medievalpack_sheetmetaldoor_p = 2568118918; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_sheetmetaldoor.prefab
-								constexpr uint32_t itempreview_medievalpack_sheetmetaldoubledoor_p = 3938969403; // assets/content/ui/menuui/itemstore/packs/medieval pack/_previews/itempreview_medievalpack_sheetmetaldoubledoor.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_medievalpack_p = 3554028009; // assets/content/ui/menuui/itemstore/packs/medieval pack/menuui.itemstore.pack.medievalpack.prefab
-						}
-						namespace wallpaper_starter_pack
-						{
-							namespace _previews
-							{
-								constexpr uint32_t itempreview_wallpaper_bluediamond_a_p = 4222338638; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_bluediamond_a.prefab
-								constexpr uint32_t itempreview_wallpaper_clouds_a_p = 301815111; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_clouds_a.prefab
-								constexpr uint32_t itempreview_wallpaper_geometric_variants_p = 836150942; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_geometric_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_polka_variants_p = 4009082356; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_polka_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_retro_variants_p = 3503608378; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_retro_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_royal_variants_p = 2574740696; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_royal_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_subway_variants_p = 4097005907; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_subway_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_venetianplaster_variants_p = 928062492; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_venetianplaster_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_wainscotting_variants_p = 396742178; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_wainscotting_variants.prefab
-								constexpr uint32_t itempreview_wallpaper_yellowstripe_a_p = 2771863006; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/_previews/itempreview_wallpaper_yellowstripe_a.prefab
-							}
-							constexpr uint32_t menuui_itemstore_pack_wallpaperstarterpack_p = 2474952507; // assets/content/ui/menuui/itemstore/packs/wallpaper starter pack/menuui.itemstore.pack.wallpaperstarterpack.prefab
-						}
-					}
-					namespace previews
-					{
-						namespace hazmat
-						{
-							constexpr uint32_t itempreview_hazmat_p = 2657679119; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat.prefab
-							constexpr uint32_t itempreview_hazmat_arctic_p = 1742668080; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat_arctic.prefab
-							constexpr uint32_t itempreview_hazmat_diver_p = 3794023944; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat_diver.prefab
-							constexpr uint32_t itempreview_hazmat_lumberjack_p = 4036237984; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat_lumberjack.prefab
-							constexpr uint32_t itempreview_hazmat_nomad_p = 3271309131; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat_nomad.prefab
-							constexpr uint32_t itempreview_hazmat_spacesuit_p = 3740294235; // assets/content/ui/menuui/itemstore/previews/hazmat/itempreview_hazmat_spacesuit.prefab
-						}
-						constexpr uint32_t itempreview_tomahasnowmobile_p = 1794744859; // assets/content/ui/menuui/itemstore/previews/itempreview_tomahasnowmobile.prefab
-					}
-				}
 				constexpr uint32_t menuui_companion_p = 3604343406; // assets/content/ui/menuui/menuui.companion.prefab
 				constexpr uint32_t menuui_connection_p = 1078052545; // assets/content/ui/menuui/menuui.connection.prefab
-				constexpr uint32_t menuui_demos_deleteconfirmation_p = 2008160431; // assets/content/ui/menuui/menuui.demos.deleteconfirmation.prefab
-				constexpr uint32_t menuui_demos_item_p = 2430302050; // assets/content/ui/menuui/menuui.demos.item.prefab
-				constexpr uint32_t menuui_demos_p = 90096049; // assets/content/ui/menuui/menuui.demos.prefab
 				constexpr uint32_t menuui_help_p = 871984355; // assets/content/ui/menuui/menuui.help.prefab
 				constexpr uint32_t menuui_hero_p = 784567923; // assets/content/ui/menuui/menuui.hero.prefab
 				constexpr uint32_t menuui_inventory_craftingmodal_p = 1461257986; // assets/content/ui/menuui/menuui.inventory.craftingmodal.prefab
@@ -10988,7 +10973,6 @@ namespace assets
 				constexpr uint32_t menuui_safezonewarning_p = 4192560894; // assets/content/ui/menuui/menuui.safezonewarning.prefab
 				constexpr uint32_t menuui_serverlist_p = 395977502; // assets/content/ui/menuui/menuui.serverlist.prefab
 				constexpr uint32_t menuui_suicide_p = 2025508368; // assets/content/ui/menuui/menuui.suicide.prefab
-				constexpr uint32_t menuui_workshop_p = 700062465; // assets/content/ui/menuui/menuui.workshop.prefab
 				namespace notice
 				{
 					constexpr uint32_t notice_banreport_p = 719761299; // assets/content/ui/menuui/notice/notice.banreport.prefab
@@ -11034,6 +11018,7 @@ namespace assets
 			namespace misc
 			{
 				constexpr uint32_t dialogbackground_p = 939842550; // assets/content/ui/misc/dialogbackground.prefab
+				constexpr uint32_t paintingfavouritecolourbutton_p = 2926959182; // assets/content/ui/misc/paintingfavouritecolourbutton.prefab
 				constexpr uint32_t steamuserbutton_mutelist_p = 3456509291; // assets/content/ui/misc/steamuserbutton.mutelist.prefab
 				constexpr uint32_t steamuserbutton_p = 2421391310; // assets/content/ui/misc/steamuserbutton.prefab
 			}
@@ -11042,15 +11027,27 @@ namespace assets
 				constexpr uint32_t genericpopup_p = 491627579; // assets/content/ui/popups/genericpopup.prefab
 			}
 			constexpr uint32_t title_p = 1574919789; // assets/content/ui/title.prefab
+			namespace workshop
+			{
+				constexpr uint32_t custompreviewimagerow_p = 747785712; // assets/content/ui/workshop/custompreviewimagerow.prefab
+			}
 		}
 		namespace vehicles
 		{
+			namespace _sharedlight
+			{
+				constexpr uint32_t flareslight_p = 3030415576; // assets/content/vehicles/_sharedlight/flareslight.prefab
+			}
+			namespace _sharedsubents
+			{
+				constexpr uint32_t flares_playerheli_p = 1232938895; // assets/content/vehicles/_sharedsubents/flares_playerheli.prefab
+				constexpr uint32_t helipilotflare_p = 4120059021; // assets/content/vehicles/_sharedsubents/helipilotflare.prefab
+			}
 			namespace attackhelicopter
 			{
 				constexpr uint32_t ahmissilepod_p = 2685316295; // assets/content/vehicles/attackhelicopter/ahmissilepod.prefab
 				constexpr uint32_t attackhelicopter_entity_p = 3052610534; // assets/content/vehicles/attackhelicopter/attackhelicopter.entity.prefab
 				constexpr uint32_t attackhelicopter_item_p = 1640066675; // assets/content/vehicles/attackhelicopter/attackhelicopter.item.prefab
-				constexpr uint32_t attackhelipilotflare_p = 4158601039; // assets/content/vehicles/attackhelicopter/attackhelipilotflare.prefab
 				constexpr uint32_t debris_effect_p = 4249382187; // assets/content/vehicles/attackhelicopter/debris_effect.prefab
 				namespace effects
 				{
@@ -11073,6 +11070,7 @@ namespace assets
 			namespace ball
 			{
 				constexpr uint32_t ball_entity_p = 3289412313; // assets/content/vehicles/ball/ball.entity.prefab
+				constexpr uint32_t ball_item_p = 1607742334; // assets/content/vehicles/ball/ball.item.prefab
 			}
 			namespace bikes
 			{
@@ -11283,6 +11281,7 @@ namespace assets
 					constexpr uint32_t horse_detach_p = 4149614700; // assets/content/vehicles/horse/effects/horse-detach.prefab
 				}
 				constexpr uint32_t horse_corpse_p = 3153252488; // assets/content/vehicles/horse/horse.corpse.prefab
+				constexpr uint32_t horse_item_p = 2118060506; // assets/content/vehicles/horse/horse.item.prefab
 				constexpr uint32_t horse_ragdoll_p = 2075484473; // assets/content/vehicles/horse/horse.ragdoll.prefab
 				constexpr uint32_t horse_ragdoll_temp_p = 3199307480; // assets/content/vehicles/horse/horse.ragdoll.temp.prefab
 				namespace items
@@ -11330,6 +11329,7 @@ namespace assets
 					constexpr uint32_t minicopter_wheel_impact_p = 1778686620; // assets/content/vehicles/minicopter/effects/minicopter-wheel-impact.prefab
 				}
 				constexpr uint32_t minicopter_entity_p = 2278499844; // assets/content/vehicles/minicopter/minicopter.entity.prefab
+				constexpr uint32_t minicopter_item_p = 3713137992; // assets/content/vehicles/minicopter/minicopter.item.prefab
 				constexpr uint32_t minicopter_repair_item_p = 3708964011; // assets/content/vehicles/minicopter/minicopter.repair.item.prefab
 				namespace subents
 				{
@@ -11375,8 +11375,11 @@ namespace assets
 			{
 				constexpr uint32_t _base_car_chassis_entity_p = 3561890772; // assets/content/vehicles/modularcar/_base_car_chassis.entity.prefab
 				constexpr uint32_t _2module_car_spawned_entity_p = 3730875555; // assets/content/vehicles/modularcar/2module_car_spawned.entity.prefab
+				constexpr uint32_t _2module_car_spawned_item_p = 803416636; // assets/content/vehicles/modularcar/2module_car_spawned.item.prefab
 				constexpr uint32_t _3module_car_spawned_entity_p = 3024716654; // assets/content/vehicles/modularcar/3module_car_spawned.entity.prefab
+				constexpr uint32_t _3module_car_spawned_item_p = 187959944; // assets/content/vehicles/modularcar/3module_car_spawned.item.prefab
 				constexpr uint32_t _4module_car_spawned_entity_p = 1823731789; // assets/content/vehicles/modularcar/4module_car_spawned.entity.prefab
+				constexpr uint32_t _4module_car_spawned_item_p = 445960024; // assets/content/vehicles/modularcar/4module_car_spawned.item.prefab
 				namespace admin_prefabs
 				{
 					namespace _2_modules
@@ -11422,8 +11425,11 @@ namespace assets
 				}
 				constexpr uint32_t barrelhurttriggercatcher_p = 2092668759; // assets/content/vehicles/modularcar/barrelhurttriggercatcher.prefab
 				constexpr uint32_t car_chassis_2module_entity_p = 3386615946; // assets/content/vehicles/modularcar/car_chassis_2module.entity.prefab
+				constexpr uint32_t car_chassis_2module_item_p = 3929241256; // assets/content/vehicles/modularcar/car_chassis_2module.item.prefab
 				constexpr uint32_t car_chassis_3module_entity_p = 4140947108; // assets/content/vehicles/modularcar/car_chassis_3module.entity.prefab
+				constexpr uint32_t car_chassis_3module_item_p = 4166208983; // assets/content/vehicles/modularcar/car_chassis_3module.item.prefab
 				constexpr uint32_t car_chassis_4module_entity_p = 1682477379; // assets/content/vehicles/modularcar/car_chassis_4module.entity.prefab
+				constexpr uint32_t car_chassis_4module_item_p = 1891156482; // assets/content/vehicles/modularcar/car_chassis_4module.item.prefab
 				constexpr uint32_t carcollisioneffect_p = 4077784008; // assets/content/vehicles/modularcar/carcollisioneffect.prefab
 				namespace colliders
 				{
@@ -11572,6 +11578,7 @@ namespace assets
 			namespace sedan_a
 			{
 				constexpr uint32_t sedan_entity_p = 1655878423; // assets/content/vehicles/sedan_a/sedan.entity.prefab
+				constexpr uint32_t sedan_item_p = 1771346319; // assets/content/vehicles/sedan_a/sedan.item.prefab
 				constexpr uint32_t sedan_a_black_p = 3463123806; // assets/content/vehicles/sedan_a/sedan_a_black.prefab
 				constexpr uint32_t sedan_a_blue_p = 788274617; // assets/content/vehicles/sedan_a/sedan_a_blue.prefab
 				constexpr uint32_t sedan_a_green_p = 2784745032; // assets/content/vehicles/sedan_a/sedan_a_green.prefab
@@ -11846,6 +11853,7 @@ namespace assets
 					constexpr uint32_t bulb_p = 288432189; // assets/content/vehicles/trains/caboose/bulb.prefab
 					constexpr uint32_t caboose dressing static_p = 373728361; // assets/content/vehicles/trains/caboose/caboose dressing static.prefab
 					constexpr uint32_t caboose dressing_p = 4064822081; // assets/content/vehicles/trains/caboose/caboose dressing.prefab
+					constexpr uint32_t caboose_item_p = 1492127491; // assets/content/vehicles/trains/caboose/caboose.item.prefab
 					constexpr uint32_t caboose_generator_p = 125353848; // assets/content/vehicles/trains/caboose/caboose_generator.prefab
 					constexpr uint32_t caboose_ground_junk_straight_b_p = 1388125155; // assets/content/vehicles/trains/caboose/caboose_ground_junk_straight_b.prefab
 					constexpr uint32_t caboose_ground_junk_straight_c_p = 2715294761; // assets/content/vehicles/trains/caboose/caboose_ground_junk_straight_c.prefab
@@ -11995,6 +12003,16 @@ namespace assets
 			}
 		}
 	}
+	namespace editor
+	{
+		namespace prefabs
+		{
+			namespace misc
+			{
+				constexpr uint32_t shdobaker_p = 2286293689; // assets/editor/prefabs/misc/shdobaker.prefab
+			}
+		}
+	}
 	namespace media
 	{
 		namespace timelines
@@ -12002,6 +12020,66 @@ namespace assets
 			namespace playblast
 			{
 				constexpr uint32_t playblast_timeline_p = 940120915; // assets/media/timelines/playblast/playblast_timeline.prefab
+			}
+		}
+		namespace twitchdrops
+		{
+			namespace models
+			{
+				namespace objects
+				{
+					namespace furnace
+					{
+						constexpr uint32_t furnace_p = 3180501230; // assets/media/twitchdrops/models/objects/furnace/furnace.prefab
+					}
+					namespace garage_door
+					{
+						constexpr uint32_t garage_door_p = 3445069691; // assets/media/twitchdrops/models/objects/garage_door/garage_door.prefab
+					}
+					namespace large_wooden_box
+					{
+						constexpr uint32_t large_wood_box_p = 120449387; // assets/media/twitchdrops/models/objects/large_wooden_box/large_wood_box.prefab
+					}
+					namespace rug
+					{
+						constexpr uint32_t rug_p = 2363570390; // assets/media/twitchdrops/models/objects/rug/rug.prefab
+					}
+					namespace small_box
+					{
+						constexpr uint32_t small_box_p = 2568481656; // assets/media/twitchdrops/models/objects/small_box/small_box.prefab
+					}
+					namespace table
+					{
+						constexpr uint32_t table_p = 4242851424; // assets/media/twitchdrops/models/objects/table/table.prefab
+					}
+					namespace wooden_door
+					{
+						constexpr uint32_t wooden_door_p = 3807537417; // assets/media/twitchdrops/models/objects/wooden_door/wooden_door.prefab
+					}
+				}
+				namespace weapons
+				{
+					namespace bone_knife
+					{
+						constexpr uint32_t bone_knife_p = 3558007486; // assets/media/twitchdrops/models/weapons/bone_knife/bone_knife.prefab
+					}
+					namespace bow
+					{
+						constexpr uint32_t bow_p = 2022623306; // assets/media/twitchdrops/models/weapons/bow/bow.prefab
+					}
+					namespace hammer
+					{
+						constexpr uint32_t hammer_p = 3044234369; // assets/media/twitchdrops/models/weapons/hammer/hammer.prefab
+					}
+					namespace mp5
+					{
+						constexpr uint32_t mp5_p = 2180751029; // assets/media/twitchdrops/models/weapons/mp5/mp5.prefab
+					}
+					namespace thompson
+					{
+						constexpr uint32_t thompson_p = 2595548263; // assets/media/twitchdrops/models/weapons/thompson/thompson.prefab
+					}
+				}
 			}
 		}
 	}
@@ -12032,6 +12110,9 @@ namespace assets
 				constexpr uint32_t flex_p = 3180894657; // assets/plugins/rust.ui/controls/flex.prefab
 				constexpr uint32_t form_horizontal_normal_p = 2509479773; // assets/plugins/rust.ui/controls/form.horizontal.normal.prefab
 				constexpr uint32_t form_vertical_normal_p = 4094338657; // assets/plugins/rust.ui/controls/form.vertical.normal.prefab
+				constexpr uint32_t label_flex_large_p = 3658405530; // assets/plugins/rust.ui/controls/label.flex.large.prefab
+				constexpr uint32_t label_flex_normal_p = 1425336089; // assets/plugins/rust.ui/controls/label.flex.normal.prefab
+				constexpr uint32_t label_flex_small_p = 1190508079; // assets/plugins/rust.ui/controls/label.flex.small.prefab
 				constexpr uint32_t label_large_p = 2133885375; // assets/plugins/rust.ui/controls/label.large.prefab
 				constexpr uint32_t label_normal_p = 2698349351; // assets/plugins/rust.ui/controls/label.normal.prefab
 				constexpr uint32_t label_small_p = 2574199535; // assets/plugins/rust.ui/controls/label.small.prefab
@@ -12174,6 +12255,7 @@ namespace assets
 				constexpr uint32_t pistolammoboxhalfstandard_worldmodel_p = 242678272; // assets/prefabs/ammo/pistol/pistolammoboxhalfstandard.worldmodel.prefab
 				constexpr uint32_t pistolbullet_p = 2421548478; // assets/prefabs/ammo/pistol/pistolbullet.prefab
 				constexpr uint32_t pistolbullet_fire_p = 3575118940; // assets/prefabs/ammo/pistol/pistolbullet_fire.prefab
+				constexpr uint32_t pistolbullet_trailed_p = 1694754580; // assets/prefabs/ammo/pistol/pistolbullet_trailed.prefab
 			}
 			namespace rifle
 			{
@@ -12223,9 +12305,12 @@ namespace assets
 				constexpr uint32_t rocket_projectile_p = 2960808564; // assets/prefabs/ammo/rocket/rocket.projectile.prefab
 				constexpr uint32_t rocket_worldmodel_p = 4283210037; // assets/prefabs/ammo/rocket/rocket.worldmodel.prefab
 				constexpr uint32_t rocket_basic_p = 3046924118; // assets/prefabs/ammo/rocket/rocket_basic.prefab
+				constexpr uint32_t rocket_basic_rpg_p = 3967322771; // assets/prefabs/ammo/rocket/rocket_basic_rpg.prefab
 				constexpr uint32_t rocket_fire_p = 901927673; // assets/prefabs/ammo/rocket/rocket_fire.prefab
+				constexpr uint32_t rocket_fire_rpg_p = 2649360180; // assets/prefabs/ammo/rocket/rocket_fire_rpg.prefab
 				constexpr uint32_t rocket_heatseeker_p = 288982380; // assets/prefabs/ammo/rocket/rocket_heatseeker.prefab
 				constexpr uint32_t rocket_hv_p = 1217937936; // assets/prefabs/ammo/rocket/rocket_hv.prefab
+				constexpr uint32_t rocket_hv_rpg_p = 2062533425; // assets/prefabs/ammo/rocket/rocket_hv_rpg.prefab
 				constexpr uint32_t rocket_smoke_p = 1790390506; // assets/prefabs/ammo/rocket/rocket_smoke.prefab
 			}
 			namespace shotgun
@@ -13363,6 +13448,12 @@ namespace assets
 		}
 		namespace clothes
 		{
+			namespace backpack_krieg
+			{
+				constexpr uint32_t kriegbackpack_item_p = 532254619; // assets/prefabs/clothes/backpack.krieg/kriegbackpack.item.prefab
+				constexpr uint32_t kriegbackpack_wearable_p = 205979643; // assets/prefabs/clothes/backpack.krieg/kriegbackpack.wearable.prefab
+				constexpr uint32_t kriegbackpack_worldmodel_p = 726627789; // assets/prefabs/clothes/backpack.krieg/kriegbackpack.worldmodel.prefab
+			}
 			namespace cocoknightarmor
 			{
 				namespace gloves_cocoknightarmor
@@ -13961,6 +14052,14 @@ namespace assets
 				constexpr uint32_t head_male_light05_p = 3120994088; // assets/prefabs/clothes/skin/head.male.light05.prefab
 				constexpr uint32_t legs_female_p = 1956807330; // assets/prefabs/clothes/skin/legs.female.prefab
 				constexpr uint32_t legs_male_p = 772786761; // assets/prefabs/clothes/skin/legs.male.prefab
+				namespace mannequin
+				{
+					constexpr uint32_t feet_male_mannequin_p = 2187297681; // assets/prefabs/clothes/skin/mannequin/feet.male.mannequin.prefab
+					constexpr uint32_t hands_male_mannequin_p = 141582939; // assets/prefabs/clothes/skin/mannequin/hands.male.mannequin.prefab
+					constexpr uint32_t head_male_mannequin_p = 4165272671; // assets/prefabs/clothes/skin/mannequin/head.male.mannequin.prefab
+					constexpr uint32_t legs_male_mannequin_p = 1492873446; // assets/prefabs/clothes/skin/mannequin/legs.male.mannequin.prefab
+					constexpr uint32_t torso_male_mannequin_p = 4187672446; // assets/prefabs/clothes/skin/mannequin/torso.male.mannequin.prefab
+				}
 				constexpr uint32_t skin_clothsash_female_p = 17205309; // assets/prefabs/clothes/skin/skin_clothsash.female.prefab
 				constexpr uint32_t skin_clothsash_p = 732883258; // assets/prefabs/clothes/skin/skin_clothsash.prefab
 				constexpr uint32_t torso_female_p = 2318367309; // assets/prefabs/clothes/skin/torso.female.prefab
@@ -13998,6 +14097,11 @@ namespace assets
 					constexpr uint32_t hazmat_suit_arctic_p = 2201274441; // assets/prefabs/clothes/suit.hazmat/arctic/hazmat_suit_arctic.prefab
 					constexpr uint32_t hazmat_suit_arctic_worldmodel_p = 517263899; // assets/prefabs/clothes/suit.hazmat/arctic/hazmat_suit_arctic_worldmodel.prefab
 				}
+				namespace clothing_mannequin
+				{
+					constexpr uint32_t clothing_mannequin_test_item_p = 1390263173; // assets/prefabs/clothes/suit.hazmat/clothing_mannequin/clothing.mannequin.test.item.prefab
+					constexpr uint32_t clothing_mannequin_p = 1186428403; // assets/prefabs/clothes/suit.hazmat/clothing_mannequin/clothing_mannequin.prefab
+				}
 				namespace diver
 				{
 					constexpr uint32_t divingsuit_hazmat_p = 1432296317; // assets/prefabs/clothes/suit.hazmat/diver/divingsuit_hazmat.prefab
@@ -14018,6 +14122,13 @@ namespace assets
 				}
 				constexpr uint32_t hazmat_suit_item_p = 692707364; // assets/prefabs/clothes/suit.hazmat/hazmat_suit.item.prefab
 				constexpr uint32_t hazmat_suit_p = 199492240; // assets/prefabs/clothes/suit.hazmat/hazmat_suit.prefab
+				namespace kick
+				{
+					constexpr uint32_t kick_hazmat_item_p = 1647024727; // assets/prefabs/clothes/suit.hazmat/kick/kick.hazmat.item.prefab
+					constexpr uint32_t kick_hazmat_p = 455573516; // assets/prefabs/clothes/suit.hazmat/kick/kick.hazmat.prefab
+					constexpr uint32_t kick_hazmat_viewmodel_p = 3039978793; // assets/prefabs/clothes/suit.hazmat/kick/kick.hazmat.viewmodel.prefab
+					constexpr uint32_t kick_hazmat_worldmodel_p = 149675422; // assets/prefabs/clothes/suit.hazmat/kick/kick.hazmat_worldmodel.prefab
+				}
 				namespace lumberjack
 				{
 					constexpr uint32_t hazmat_suit_lumberjack_item_p = 1210631191; // assets/prefabs/clothes/suit.hazmat/lumberjack/hazmat_suit.lumberjack.item.prefab
@@ -14031,6 +14142,13 @@ namespace assets
 					constexpr uint32_t hazmat_suit_nomad_viewmodel_p = 3959024467; // assets/prefabs/clothes/suit.hazmat/nomad/hazmat_suit_nomad_viewmodel.prefab
 					constexpr uint32_t hazmat_suit_nomad_worldmodel_p = 352786512; // assets/prefabs/clothes/suit.hazmat/nomad/hazmat_suit_nomad_worldmodel.prefab
 					constexpr uint32_t hazmat_suit_nomadsuit_p = 1761314874; // assets/prefabs/clothes/suit.hazmat/nomad/hazmat_suit_nomadsuit.prefab
+				}
+				namespace pilot
+				{
+					constexpr uint32_t pilot_hazmat_item_p = 1688792738; // assets/prefabs/clothes/suit.hazmat/pilot/pilot.hazmat.item.prefab
+					constexpr uint32_t pilot_hazmat_p = 2108510397; // assets/prefabs/clothes/suit.hazmat/pilot/pilot.hazmat.prefab
+					constexpr uint32_t pilot_hazmat_viewmodel_p = 3868780621; // assets/prefabs/clothes/suit.hazmat/pilot/pilot.hazmat.viewmodel.prefab
+					constexpr uint32_t pilot_hazmat_worldmodel_p = 3121506297; // assets/prefabs/clothes/suit.hazmat/pilot/pilot.hazmat_worldmodel.prefab
 				}
 				namespace scientist
 				{
@@ -14057,6 +14175,13 @@ namespace assets
 					constexpr uint32_t hazmat_suit_twitch_item_p = 2855907722; // assets/prefabs/clothes/suit.hazmat/twitch/hazmat_suit_twitch.item.prefab
 					constexpr uint32_t hazmat_suit_twitch_p = 1954810074; // assets/prefabs/clothes/suit.hazmat/twitch/hazmat_suit_twitch.prefab
 					constexpr uint32_t suit_hazmat_twitch_viewmodel_p = 2919001267; // assets/prefabs/clothes/suit.hazmat/twitch/suit.hazmat_twitch.viewmodel.prefab
+				}
+				namespace warhammer
+				{
+					constexpr uint32_t krieg_hazmat_item_p = 3251774059; // assets/prefabs/clothes/suit.hazmat/warhammer/krieg.hazmat.item.prefab
+					constexpr uint32_t krieg_hazmat_p = 1525483722; // assets/prefabs/clothes/suit.hazmat/warhammer/krieg.hazmat.prefab
+					constexpr uint32_t krieg_hazmat_viewmodel_p = 2259443580; // assets/prefabs/clothes/suit.hazmat/warhammer/krieg.hazmat.viewmodel.prefab
+					constexpr uint32_t krieg_hazmat_worldmodel_p = 2808008530; // assets/prefabs/clothes/suit.hazmat/warhammer/krieg.hazmat_worldmodel.prefab
 				}
 			}
 			namespace suit_heavyscientist
@@ -14436,6 +14561,7 @@ namespace assets
 			namespace ceiling_light
 			{
 				constexpr uint32_t ceilinglight_deployed_p = 3953213470; // assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab
+				constexpr uint32_t ceilinglight_guide_p = 3871768932; // assets/prefabs/deployable/ceiling light/ceilinglight.guide.prefab
 				constexpr uint32_t ceilinglight_item_p = 1719280573; // assets/prefabs/deployable/ceiling light/ceilinglight.item.prefab
 				constexpr uint32_t ceilinglight_worldmodel_p = 4135860583; // assets/prefabs/deployable/ceiling light/ceilinglight.worldmodel.prefab
 				namespace effects
@@ -14450,6 +14576,8 @@ namespace assets
 				constexpr uint32_t chair_worldmodel_p = 1896537685; // assets/prefabs/deployable/chair/chair.worldmodel.prefab
 				namespace effects
 				{
+					constexpr uint32_t beanbag_chair_deploy_p = 3820069782; // assets/prefabs/deployable/chair/effects/beanbag-chair-deploy.prefab
+					constexpr uint32_t beanbag_chair_destroy_p = 299898462; // assets/prefabs/deployable/chair/effects/beanbag-chair-destroy.prefab
 					constexpr uint32_t chair_deploy_p = 4154096236; // assets/prefabs/deployable/chair/effects/chair-deploy.prefab
 				}
 				namespace ice_throne
@@ -14461,6 +14589,33 @@ namespace assets
 						constexpr uint32_t icethrone_deploy_p = 691733698; // assets/prefabs/deployable/chair/ice_throne/effects/icethrone-deploy.prefab
 					}
 				}
+				namespace skins
+				{
+					namespace cozy_beanbag_seat
+					{
+						constexpr uint32_t beanbag_seat_fabric_deployed_p = 3824051769; // assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.fabric.deployed.prefab
+						constexpr uint32_t beanbag_seat_fabric_item_p = 399993095; // assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.fabric.item.prefab
+						constexpr uint32_t beanbag_seat_leather_deployed_p = 1742249447; // assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.leather.deployed.prefab
+						constexpr uint32_t beanbag_seat_leather_item_p = 3765912436; // assets/prefabs/deployable/chair/skins/cozy_beanbag_seat/beanbag.seat.leather.item.prefab
+					}
+					namespace pilot_hazmat_ejector_seat
+					{
+						constexpr uint32_t chair_ejector_seat_item_p = 1736894379; // assets/prefabs/deployable/chair/skins/pilot_hazmat_ejector_seat/chair.ejector.seat.item.prefab
+						constexpr uint32_t chair_ejectorseat_p = 454013157; // assets/prefabs/deployable/chair/skins/pilot_hazmat_ejector_seat/chair.ejectorseat.prefab
+					}
+				}
+			}
+			namespace charity_plushie_01
+			{
+				constexpr uint32_t charityplushie_01_item_p = 2217344950; // assets/prefabs/deployable/charity_plushie_01/charityplushie_01.item.prefab
+				constexpr uint32_t charityplushie_01_worldmodel_p = 3032638235; // assets/prefabs/deployable/charity_plushie_01/charityplushie_01.worldmodel.prefab
+				constexpr uint32_t charityplushie_01_deployed_p = 2143844589; // assets/prefabs/deployable/charity_plushie_01/charityplushie_01_deployed.prefab
+			}
+			namespace charity_plushie_02
+			{
+				constexpr uint32_t charityplushie_02_item_p = 1987731975; // assets/prefabs/deployable/charity_plushie_02/charityplushie_02.item.prefab
+				constexpr uint32_t charityplushie_02_worldmodel_p = 2207881288; // assets/prefabs/deployable/charity_plushie_02/charityplushie_02.worldmodel.prefab
+				constexpr uint32_t charityplushie_02_deployed_p = 1164581789; // assets/prefabs/deployable/charity_plushie_02/charityplushie_02_deployed.prefab
 			}
 			namespace chickencoop
 			{
@@ -14553,6 +14708,10 @@ namespace assets
 					constexpr uint32_t drone_impact_p = 2584769199; // assets/prefabs/deployable/drone/effects/drone-impact.prefab
 					constexpr uint32_t pfx battery fire_p = 2798845467; // assets/prefabs/deployable/drone/effects/pfx battery fire.prefab
 				}
+				namespace subents
+				{
+					constexpr uint32_t drone_storage_p = 1397446101; // assets/prefabs/deployable/drone/subents/drone.storage.prefab
+				}
 			}
 			namespace dropbox
 			{
@@ -14585,7 +14744,6 @@ namespace assets
 				constexpr uint32_t elevator_lift_p = 147094869; // assets/prefabs/deployable/elevator/elevator_lift.prefab
 				constexpr uint32_t elevator_shaft_section_p = 965136403; // assets/prefabs/deployable/elevator/elevator_shaft_section.prefab
 				constexpr uint32_t elevator_shaft_top_p = 1031570425; // assets/prefabs/deployable/elevator/elevator_shaft_top.prefab
-				constexpr uint32_t elevatorioentity_p = 855553829; // assets/prefabs/deployable/elevator/elevatorioentity.prefab
 				namespace _static
 				{
 					constexpr uint32_t elevator_static_office_top_p = 2008256530; // assets/prefabs/deployable/elevator/static/elevator.static.office.top.prefab
@@ -14856,6 +15014,29 @@ namespace assets
 						constexpr uint32_t medieval_box_wooden_large_item_p = 1012811922; // assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.item.prefab
 						constexpr uint32_t medieval_box_wooden_large_p = 2142950612; // assets/prefabs/deployable/large wood storage/skins/medieval_large_wood_box/medieval.box.wooden.large.prefab
 					}
+					namespace warhammer_dlc_large_wood_box
+					{
+						namespace krieg_storage_horizontal
+						{
+							namespace effects
+							{
+								constexpr uint32_t krieg_box_storage_deploy_p = 3774479647; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/effects/krieg-box-storage-deploy.prefab
+							}
+							constexpr uint32_t krieg_storage_horizontal_corpse_p = 2755571140; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.corpse.prefab
+							constexpr uint32_t krieg_storage_horizontal_item_p = 1471596055; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.item.prefab
+							constexpr uint32_t krieg_storage_horizontal_p = 295691137; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_horizontal/krieg_storage_horizontal.prefab
+						}
+						namespace krieg_storage_vertical
+						{
+							namespace effects
+							{
+								constexpr uint32_t krieg_barrel_storage_deploy_p = 3636076594; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/effects/krieg-barrel-storage-deploy.prefab
+							}
+							constexpr uint32_t krieg_storage_vertical_corpse_p = 983075320; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.corpse.prefab
+							constexpr uint32_t krieg_storage_vertical_item_p = 1864618279; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.item.prefab
+							constexpr uint32_t krieg_storage_vertical_p = 2980428674; // assets/prefabs/deployable/large wood storage/skins/warhammer_dlc_large_wood_box/krieg_storage_vertical/krieg_storage_vertical.prefab
+						}
+					}
 				}
 			}
 			namespace legacyfurnace
@@ -14921,6 +15102,23 @@ namespace assets
 			{
 				constexpr uint32_t batterycelltier1_p = 1415196587; // assets/prefabs/deployable/makeshift batteries/batterycelltier1.prefab
 				constexpr uint32_t batterycelltier2_p = 3301525707; // assets/prefabs/deployable/makeshift batteries/batterycelltier2.prefab
+			}
+			namespace mannequin
+			{
+				namespace effects
+				{
+					constexpr uint32_t mannequin_change_pose_p = 3640913833; // assets/prefabs/deployable/mannequin/effects/mannequin-change-pose.prefab
+					constexpr uint32_t mannequin_deploy_p = 4202280704; // assets/prefabs/deployable/mannequin/effects/mannequin-deploy.prefab
+				}
+				constexpr uint32_t mannequin_item_p = 2889598100; // assets/prefabs/deployable/mannequin/mannequin.item.prefab
+				constexpr uint32_t mannequin_deployed_corpse_p = 2081428822; // assets/prefabs/deployable/mannequin/mannequin_deployed.corpse.prefab
+				constexpr uint32_t mannequin_deployed_p = 91888137; // assets/prefabs/deployable/mannequin/mannequin_deployed.prefab
+			}
+			namespace minifridge
+			{
+				constexpr uint32_t minifridge_deployed_corpse_p = 3870025584; // assets/prefabs/deployable/minifridge/minifridge.deployed.corpse.prefab
+				constexpr uint32_t minifridge_deployed_p = 1535651257; // assets/prefabs/deployable/minifridge/minifridge.deployed.prefab
+				constexpr uint32_t minifridge_item_p = 1419558892; // assets/prefabs/deployable/minifridge/minifridge.item.prefab
 			}
 			namespace mixingtable
 			{
@@ -15259,6 +15457,106 @@ namespace assets
 				}
 				namespace lights
 				{
+					namespace cozypack
+					{
+						namespace chandelier
+						{
+							namespace effects
+							{
+								constexpr uint32_t chandelier_adjust_height_p = 1728558701; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/effects/chandelier-adjust-height.prefab
+								constexpr uint32_t chandelier_deploy_p = 204956681; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/effects/chandelier-deploy.prefab
+							}
+							constexpr uint32_t electric_chandelier_deployed_p = 2172878916; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.deployed.prefab
+							constexpr uint32_t electric_chandelier_guide_p = 2769882689; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.guide.prefab
+							constexpr uint32_t electric_chandelier_item_p = 2968242752; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.item.prefab
+							constexpr uint32_t electric_chandelier_worldmodel_p = 3581872201; // assets/prefabs/deployable/playerioents/lights/cozypack/chandelier/electric.chandelier.worldmodel.prefab
+						}
+						namespace electrictablelamp
+						{
+							namespace effects
+							{
+								constexpr uint32_t electric_table_lamp_deploy_p = 1071920492; // assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/effects/electric-table-lamp-deploy.prefab
+							}
+							constexpr uint32_t electric_tablelamp_deployed_p = 951064; // assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.deployed.prefab
+							constexpr uint32_t electric_tablelamp_item_p = 2462132896; // assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.item.prefab
+							constexpr uint32_t electric_tablelamp_worldmodel_p = 1637928831; // assets/prefabs/deployable/playerioents/lights/cozypack/electrictablelamp/electric.tablelamp.worldmodel.prefab
+						}
+						namespace fairylights
+						{
+							namespace bulbs
+							{
+								constexpr uint32_t fairylights_bulb_p = 2132950621; // assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/bulbs/fairylights.bulb.prefab
+								constexpr uint32_t fairylights_pointlight_p = 449610755; // assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/bulbs/fairylights.pointlight.prefab
+							}
+							constexpr uint32_t electric_fairylights_deployed_p = 2715027079; // assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/electric.fairylights.deployed.prefab
+							constexpr uint32_t electric_fairylights_item_p = 879184069; // assets/prefabs/deployable/playerioents/lights/cozypack/fairylights/electric.fairylights.item.prefab
+						}
+						namespace fluorescentlights
+						{
+							namespace ceiling
+							{
+								constexpr uint32_t electric_fluorescentlight_ceiling_deployed_p = 3414812695; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.deployed.prefab
+								constexpr uint32_t electric_fluorescentlight_ceiling_guide_p = 861857838; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.guide.prefab
+								constexpr uint32_t electric_fluorescentlight_ceiling_item_p = 721552361; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.item.prefab
+								constexpr uint32_t electric_fluorescentlight_ceiling_worldmodel_p = 1226866039; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/ceiling/electric.fluorescentlight.ceiling.worldmodel.prefab
+							}
+							constexpr uint32_t electric_fluorescentlight_deployed_p = 297156836; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.deployed.prefab
+							constexpr uint32_t electric_fluorescentlight_item_p = 82756001; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.item.prefab
+							constexpr uint32_t electric_fluorescentlight_worldmodel_p = 3145336669; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/electric.fluorescentlight.worldmodel.prefab
+							namespace model
+							{
+								constexpr uint32_t fluorescentlight_ceiling_p = 507509574; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/model/fluorescentlight_ceiling.prefab
+								constexpr uint32_t fluorescentlight_mount_p = 2142999480; // assets/prefabs/deployable/playerioents/lights/cozypack/fluorescentlights/model/fluorescentlight_mount.prefab
+							}
+						}
+						namespace hangingbulbs
+						{
+							namespace bulb
+							{
+								constexpr uint32_t bulbstringlights_bulb_p = 52821044; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/bulb/bulbstringlights.bulb.prefab
+								constexpr uint32_t bulbstringlights_candle_p = 2420159349; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/bulb/bulbstringlights.candle.prefab
+								constexpr uint32_t bulbstringlights_pointlight_p = 4078560785; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/bulb/bulbstringlights.pointlight.prefab
+							}
+							constexpr uint32_t electric_bulbstringlights_deployed_p = 790776081; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/electric.bulbstringlights.deployed.prefab
+							constexpr uint32_t electric_bulbstringlights_item_p = 892566986; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/electric.bulbstringlights.item.prefab
+							namespace models
+							{
+								constexpr uint32_t dlc_bulb_p = 3621799627; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/models/dlc_bulb.prefab
+								constexpr uint32_t dlc_bulb_candle_p = 608149396; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/models/dlc_bulb_candle.prefab
+								constexpr uint32_t dlc_bulb_spotlight_p = 3061407045; // assets/prefabs/deployable/playerioents/lights/cozypack/hangingbulbs/models/dlc_bulb_spotlight.prefab
+							}
+						}
+						namespace orientablespotlight
+						{
+							namespace effects
+							{
+								constexpr uint32_t electric_spotlight_deploy_p = 572339557; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/effects/electric-spotlight-deploy.prefab
+								constexpr uint32_t electric_spotlight_reorient_p = 3222564036; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/effects/electric-spotlight-reorient.prefab
+								constexpr uint32_t electric_spotlight_tripod_deploy_p = 1813043383; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/effects/electric-spotlight-tripod-deploy.prefab
+							}
+							constexpr uint32_t electric_spotlight_deployed_p = 13233315; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.deployed.prefab
+							constexpr uint32_t electric_spotlight_guide_p = 1954009928; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.guide.prefab
+							constexpr uint32_t electric_spotlight_item_p = 3463127454; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.item.prefab
+							constexpr uint32_t electric_spotlight_worldmodel_p = 2628597218; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/electric.spotlight.worldmodel.prefab
+							namespace models
+							{
+								constexpr uint32_t dlc_lights_spotlight_p = 3444396844; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_lights_spotlight.prefab
+								constexpr uint32_t dlc_lights_spotlight_arm_p = 1466163645; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_lights_spotlight_arm.prefab
+								constexpr uint32_t dlc_lights_spotlight_mount_p = 3396162846; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_lights_spotlight_mount.prefab
+								constexpr uint32_t dlc_new_spotlight_p = 157464352; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_new_spotlight.prefab
+								constexpr uint32_t dlc_new_spotlight_mount_p = 2266265165; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_new_spotlight_mount.prefab
+								constexpr uint32_t dlc_new_spotlight_rotator_p = 4038483985; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_new_spotlight_rotator.prefab
+								constexpr uint32_t dlc_spotlight_tripod_p = 2880569509; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/models/dlc_spotlight_tripod.prefab
+							}
+							namespace tripod
+							{
+								constexpr uint32_t electric_spotlight_tripod_deployed_p = 1179002613; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.deployed.prefab
+								constexpr uint32_t electric_spotlight_tripod_guide_p = 142184496; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.guide.prefab
+								constexpr uint32_t electric_spotlight_tripod_item_p = 3817095441; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.item.prefab
+								constexpr uint32_t electric_spotlight_tripod_worldmodel_p = 2560960418; // assets/prefabs/deployable/playerioents/lights/cozypack/orientablespotlight/tripod/electric.spotlight.tripod.worldmodel.prefab
+							}
+						}
+					}
 					namespace flasherlight
 					{
 						constexpr uint32_t electric_flasherlight_deployed_p = 3742301494; // assets/prefabs/deployable/playerioents/lights/flasherlight/electric.flasherlight.deployed.prefab
@@ -15301,6 +15599,10 @@ namespace assets
 				{
 					constexpr uint32_t electric_sprinkler_deployed_p = 2389629329; // assets/prefabs/deployable/playerioents/sprinkler/electric.sprinkler.deployed.prefab
 					constexpr uint32_t electric_sprinkler_item_p = 2314149646; // assets/prefabs/deployable/playerioents/sprinkler/electric.sprinkler.item.prefab
+					namespace model
+					{
+						constexpr uint32_t sprinkler_model_p = 452571924; // assets/prefabs/deployable/playerioents/sprinkler/model/sprinkler_model.prefab
+					}
 				}
 				namespace teslacoil
 				{
@@ -15583,6 +15885,15 @@ namespace assets
 				constexpr uint32_t sofa_pattern_deployed_p = 836629684; // assets/prefabs/deployable/sofa/sofa.pattern.deployed.prefab
 				constexpr uint32_t sofa_pattern_item_p = 1749680425; // assets/prefabs/deployable/sofa/sofa.pattern.item.prefab
 			}
+			namespace spike_trap
+			{
+				namespace effects
+				{
+					constexpr uint32_t floor_spikes_deploy_p = 2300068400; // assets/prefabs/deployable/spike trap/effects/floor-spikes-deploy.prefab
+				}
+				constexpr uint32_t spikes_trap_item_p = 2967398793; // assets/prefabs/deployable/spike trap/spikes.trap.item.prefab
+				constexpr uint32_t spikes_trap_p = 3006607439; // assets/prefabs/deployable/spike trap/spikes.trap.prefab
+			}
 			namespace spinner_wheel
 			{
 				namespace effects
@@ -15753,6 +16064,20 @@ namespace assets
 				constexpr uint32_t vendingmachine_item_p = 3431920290; // assets/prefabs/deployable/vendingmachine/vendingmachine.item.prefab
 				constexpr uint32_t vendingmachine_p = 3268817912; // assets/prefabs/deployable/vendingmachine/vendingmachine.prefab
 			}
+			namespace wall_cabinet
+			{
+				namespace effects
+				{
+					constexpr uint32_t wall_cabinet_deploy_p = 981153989; // assets/prefabs/deployable/wall cabinet/effects/wall-cabinet-deploy.prefab
+				}
+				constexpr uint32_t electric_wallcabinet_corpse_p = 3529359528; // assets/prefabs/deployable/wall cabinet/electric.wallcabinet.corpse.prefab
+				constexpr uint32_t electric_wallcabinet_deployed_p = 3113345730; // assets/prefabs/deployable/wall cabinet/electric.wallcabinet.deployed.prefab
+				constexpr uint32_t electric_wallcabinet_item_p = 4059366157; // assets/prefabs/deployable/wall cabinet/electric.wallcabinet.item.prefab
+				namespace model
+				{
+					constexpr uint32_t dlc_bulb_p = 2050774330; // assets/prefabs/deployable/wall cabinet/model/dlc_bulb.prefab
+				}
+			}
 			namespace wall_single_shallow_shelves
 			{
 				constexpr uint32_t single_shelves_mesh_p = 3359373008; // assets/prefabs/deployable/wall_single_shallow_shelves/single_shelves_mesh.prefab
@@ -15816,6 +16141,7 @@ namespace assets
 			}
 			namespace windmill
 			{
+				constexpr uint32_t electric_windmill_small_guide_p = 3884893481; // assets/prefabs/deployable/windmill/electric.windmill.small.guide.prefab
 				constexpr uint32_t electric_windmill_small_p = 1192074893; // assets/prefabs/deployable/windmill/electric.windmill.small.prefab
 				constexpr uint32_t generator_wind_scrap_item_p = 2306889531; // assets/prefabs/deployable/windmill/generator.wind.scrap.item.prefab
 				constexpr uint32_t generator_wind_scrap_p = 3038465934; // assets/prefabs/deployable/windmill/generator.wind.scrap.prefab
@@ -15831,7 +16157,21 @@ namespace assets
 				constexpr uint32_t box_wooden_item_p = 3830634877; // assets/prefabs/deployable/woodenbox/box_wooden.item.prefab
 				namespace effects
 				{
+					constexpr uint32_t black_box_deploy_p = 1294887405; // assets/prefabs/deployable/woodenbox/effects/black-box-deploy.prefab
 					constexpr uint32_t wooden_box_deploy_p = 3309562397; // assets/prefabs/deployable/woodenbox/effects/wooden-box-deploy.prefab
+				}
+				namespace skins
+				{
+					namespace pilot_hazmat_wooden_box
+					{
+						namespace effects
+						{
+							constexpr uint32_t lighting_p = 1120643077; // assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/effects/lighting.prefab
+						}
+						constexpr uint32_t pilot_hazmat_box_wooden_item_p = 455962946; // assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_box_wooden.item.prefab
+						constexpr uint32_t pilot_hazmat_woodbox_deployed_corpse_p = 3758828704; // assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.corpse.prefab
+						constexpr uint32_t pilot_hazmat_woodbox_deployed_p = 2203540697; // assets/prefabs/deployable/woodenbox/skins/pilot_hazmat_wooden_box/pilot_hazmat_woodbox_deployed.prefab
+					}
 				}
 				constexpr uint32_t woodbox_deployed_corpse_p = 2010632750; // assets/prefabs/deployable/woodenbox/woodbox_deployed.corpse.prefab
 				constexpr uint32_t woodbox_deployed_p = 1560881570; // assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab
@@ -15852,6 +16192,12 @@ namespace assets
 			{
 				constexpr uint32_t auroras_skychild_p = 780609316; // assets/prefabs/effects/auroras/auroras_skychild.prefab
 			}
+			namespace bouncelighting
+			{
+				constexpr uint32_t bouncelight_p = 3031133065; // assets/prefabs/effects/bouncelighting/bouncelight.prefab
+				constexpr uint32_t light_bouncable_p = 3807641494; // assets/prefabs/effects/bouncelighting/light_bouncable.prefab
+			}
+			constexpr uint32_t bouncelighttest_p = 3653763792; // assets/prefabs/effects/bouncelighttest.prefab
 			namespace foliage
 			{
 				constexpr uint32_t pfx_leaves_p = 3863173806; // assets/prefabs/effects/foliage/pfx_leaves.prefab
@@ -16409,6 +16755,8 @@ namespace assets
 				{
 					constexpr uint32_t generator_static_p = 1331920001; // assets/prefabs/io/electric/generators/generator.static.prefab
 					constexpr uint32_t generator_static_hidden_p = 3467084113; // assets/prefabs/io/electric/generators/generator.static_hidden.prefab
+					constexpr uint32_t twotierradiationbox_p = 2177476090; // assets/prefabs/io/electric/generators/twotierradiationbox.prefab
+					constexpr uint32_t twotierradiationsphere_p = 1650501058; // assets/prefabs/io/electric/generators/twotierradiationsphere.prefab
 				}
 				namespace lights
 				{
@@ -16493,6 +16841,15 @@ namespace assets
 				namespace model
 				{
 					constexpr uint32_t keypad_p = 639614811; // assets/prefabs/locks/keypad/model/keypad.prefab
+				}
+				namespace skins
+				{
+					namespace codelock_a_pilot
+					{
+						constexpr uint32_t lock_code_a_pilot_item_p = 4165591469; // assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.item.prefab
+						constexpr uint32_t lock_code_a_pilot_p = 319071656; // assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.prefab
+						constexpr uint32_t lock_code_a_pilot_worldmodel_p = 3641425911; // assets/prefabs/locks/keypad/skins/codelock_a_pilot/lock.code.a.pilot.worldmodel.prefab
+					}
 				}
 				namespace ui
 				{
@@ -17427,6 +17784,7 @@ namespace assets
 				constexpr uint32_t junkpile_water_a_p = 303596648; // assets/prefabs/misc/junkpile_water/junkpile_water_a.prefab
 				constexpr uint32_t junkpile_water_b_p = 292159419; // assets/prefabs/misc/junkpile_water/junkpile_water_b.prefab
 				constexpr uint32_t junkpile_water_c_p = 1744083475; // assets/prefabs/misc/junkpile_water/junkpile_water_c.prefab
+				constexpr uint32_t ladder_p = 2721715231; // assets/prefabs/misc/junkpile_water/ladder.prefab
 			}
 			constexpr uint32_t lakewaterbody_p = 751915049; // assets/prefabs/misc/lakewaterbody.prefab
 			namespace largebackpack
@@ -17537,6 +17895,7 @@ namespace assets
 			}
 			namespace monument
 			{
+				constexpr uint32_t oilrigresetnotification_p = 3347451172; // assets/prefabs/misc/monument/oilrigresetnotification.prefab
 				namespace radiation
 				{
 					constexpr uint32_t oil_rig_radiation_p = 2899507223; // assets/prefabs/misc/monument/radiation/oil_rig_radiation.prefab
@@ -18263,6 +18622,7 @@ namespace assets
 					constexpr uint32_t sign_neon_xl_animated_p = 708840119; // assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.animated.prefab
 					constexpr uint32_t sign_neon_xl_item_p = 2291847021; // assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.item.prefab
 					constexpr uint32_t sign_neon_xl_p = 3168507223; // assets/prefabs/misc/xmas/neon_sign/sign.neon.xl.prefab
+					constexpr uint32_t sign_controlbox_p = 3208603133; // assets/prefabs/misc/xmas/neon_sign/sign_controlbox.prefab
 				}
 				namespace pookie
 				{
@@ -18272,11 +18632,9 @@ namespace assets
 				}
 				namespace poweredlights
 				{
-					constexpr uint32_t poweredlightsdeployer_p = 1403430371; // assets/prefabs/misc/xmas/poweredlights/poweredlightsdeployer.prefab
-					constexpr uint32_t testbulb_p = 4000572431; // assets/prefabs/misc/xmas/poweredlights/testbulb.prefab
 					constexpr uint32_t xmas_advanced_lights_deployed_p = 132493746; // assets/prefabs/misc/xmas/poweredlights/xmas.advanced.lights.deployed.prefab
 					constexpr uint32_t xmas_advanced_lights_item_p = 3580624152; // assets/prefabs/misc/xmas/poweredlights/xmas.advanced.lights.item.prefab
-					constexpr uint32_t xmas_controlbox_p = 17676237; // assets/prefabs/misc/xmas/poweredlights/xmas_controlbox.prefab
+					constexpr uint32_t xmas_bulb_p = 3070605454; // assets/prefabs/misc/xmas/poweredlights/xmas_bulb.prefab
 				}
 				namespace presents
 				{
@@ -19268,6 +19626,16 @@ namespace assets
 			{
 				constexpr uint32_t blood_item_p = 3902342336; // assets/prefabs/resource/blood/blood.item.prefab
 			}
+			namespace blueprint_fragment
+			{
+				constexpr uint32_t advanceblueprintfragment_worldmodel_p = 324955245; // assets/prefabs/resource/blueprint fragment/advanceblueprintfragment.worldmodel.prefab
+				constexpr uint32_t advancedblueprintfragment_p = 831536515; // assets/prefabs/resource/blueprint fragment/advancedblueprintfragment.prefab
+				constexpr uint32_t advancedblueprintfragment_pickup_entity_p = 120188964; // assets/prefabs/resource/blueprint fragment/advancedblueprintfragment_pickup.entity.prefab
+				constexpr uint32_t basicblueprintfragment_p = 1258954536; // assets/prefabs/resource/blueprint fragment/basicblueprintfragment.prefab
+				constexpr uint32_t basicblueprintfragment_worldmodel_p = 2768522968; // assets/prefabs/resource/blueprint fragment/basicblueprintfragment.worldmodel.prefab
+				constexpr uint32_t basicblueprintfragment_pickup_entity_p = 4011844428; // assets/prefabs/resource/blueprint fragment/basicblueprintfragment_pickup.entity.prefab
+				constexpr uint32_t basicblueprintfragment_singlepickup_entity_p = 14164597; // assets/prefabs/resource/blueprint fragment/basicblueprintfragment_singlepickup.entity.prefab
+			}
 			namespace bone_fragments
 			{
 				constexpr uint32_t bone_fragments_item_p = 1541685977; // assets/prefabs/resource/bone fragments/bone_fragments.item.prefab
@@ -19568,6 +19936,13 @@ namespace assets
 				constexpr uint32_t camera_worldmodel_p = 3783700548; // assets/prefabs/tools/camera/camera.worldmodel.prefab
 				constexpr uint32_t tool_camera_p = 1410597758; // assets/prefabs/tools/camera/tool_camera.prefab
 			}
+			namespace compass
+			{
+				constexpr uint32_t compass_entity_p = 2757054139; // assets/prefabs/tools/compass/compass.entity.prefab
+				constexpr uint32_t compass_item_p = 2795767561; // assets/prefabs/tools/compass/compass.item.prefab
+				constexpr uint32_t compass_viewmodel_p = 3129623258; // assets/prefabs/tools/compass/compass.viewmodel.prefab
+				constexpr uint32_t compass_worldmodel_p = 2961076329; // assets/prefabs/tools/compass/compass.worldmodel.prefab
+			}
 			namespace deploy_(obsolete)
 			{
 				constexpr uint32_t generic_deploy_p = 2686008770; // assets/prefabs/tools/deploy (obsolete)/generic_deploy.prefab
@@ -19829,6 +20204,7 @@ namespace assets
 					constexpr uint32_t ui_map_tutorialisland_p = 827950777; // assets/prefabs/tools/map/ui/ui.map.tutorialisland.prefab
 					constexpr uint32_t ui_map_vendor_singlevendor_p = 422247852; // assets/prefabs/tools/map/ui/ui.map.vendor.singlevendor.prefab
 					constexpr uint32_t ui_map_vendor_vendorlisting_p = 1838882477; // assets/prefabs/tools/map/ui/ui.map.vendor.vendorlisting.prefab
+					constexpr uint32_t vendorlist_p = 4131020205; // assets/prefabs/tools/map/ui/vendorlist.prefab
 				}
 			}
 			namespace medical_syringe
@@ -19905,6 +20281,7 @@ namespace assets
 				constexpr uint32_t building_planner_item_p = 3935042626; // assets/prefabs/tools/planner/building_planner.item.prefab
 				constexpr uint32_t building_planner_worldmodel_p = 1611512680; // assets/prefabs/tools/planner/building_planner.worldmodel.prefab
 				constexpr uint32_t planner_p = 1435750071; // assets/prefabs/tools/planner/planner.prefab
+				constexpr uint32_t planner_tool_viewmodel_p = 1756315777; // assets/prefabs/tools/planner/planner.tool.viewmodel.prefab
 			}
 			namespace playing_cards
 			{
@@ -20332,6 +20709,7 @@ namespace assets
 		}
 		namespace wallpaper
 		{
+			constexpr uint32_t ceilingpaper_entity_iconrender_p = 2416512278; // assets/prefabs/wallpaper/ceilingpaper.entity_iconrender.prefab
 			namespace constructions
 			{
 				constexpr uint32_t wallpaper_doorway_construction_p = 1151746608; // assets/prefabs/wallpaper/constructions/wallpaper.doorway.construction.prefab
@@ -20351,6 +20729,7 @@ namespace assets
 				constexpr uint32_t deploy_p = 2323887611; // assets/prefabs/wallpaper/effects/deploy.prefab
 				constexpr uint32_t place_p = 38976464; // assets/prefabs/wallpaper/effects/place.prefab
 			}
+			constexpr uint32_t floorgpaper_entity_iconrender_p = 2001334526; // assets/prefabs/wallpaper/floorgpaper.entity_iconrender.prefab
 			namespace models
 			{
 				constexpr uint32_t wallpaper_floor_p = 532525503; // assets/prefabs/wallpaper/models/wallpaper.floor.prefab
@@ -20374,14 +20753,8 @@ namespace assets
 				constexpr uint32_t wallpaper_wall_right_p = 264603616; // assets/prefabs/wallpaper/models/wallpaper.wall.right.prefab
 				constexpr uint32_t wallpaper_wall_window_p = 1671879783; // assets/prefabs/wallpaper/models/wallpaper.wall.window.prefab
 			}
-			namespace skins
-			{
-				namespace icons
-				{
-					constexpr uint32_t wallpaper_entity_iconrender_p = 273829796; // assets/prefabs/wallpaper/skins/icons/wallpaper.entity_iconrender.prefab
-				}
-			}
 			constexpr uint32_t wallpaper_ceiling_item_p = 3520882720; // assets/prefabs/wallpaper/wallpaper.ceiling.item.prefab
+			constexpr uint32_t wallpaper_entity_iconrender_p = 3945642922; // assets/prefabs/wallpaper/wallpaper.entity_iconrender.prefab
 			constexpr uint32_t wallpaper_flooring_item_p = 3529731866; // assets/prefabs/wallpaper/wallpaper.flooring.item.prefab
 			constexpr uint32_t wallpaper_tool_entity_p = 2811911262; // assets/prefabs/wallpaper/wallpaper.tool.entity.prefab
 			constexpr uint32_t wallpaper_tool_item_p = 85908101; // assets/prefabs/wallpaper/wallpaper.tool.item.prefab
@@ -20828,6 +21201,7 @@ namespace assets
 					constexpr uint32_t deploy_p = 3128455687; // assets/prefabs/weapons/chainsaw/effects/deploy.prefab
 					constexpr uint32_t fill_gas_p = 2318899901; // assets/prefabs/weapons/chainsaw/effects/fill-gas.prefab
 					constexpr uint32_t ignition_p = 669289540; // assets/prefabs/weapons/chainsaw/effects/ignition.prefab
+					constexpr uint32_t strike_p = 3140448414; // assets/prefabs/weapons/chainsaw/effects/strike.prefab
 					constexpr uint32_t unscrew_cap_p = 1353493611; // assets/prefabs/weapons/chainsaw/effects/unscrew-cap.prefab
 				}
 			}
@@ -21897,36 +22271,6 @@ namespace assets
 			}
 			namespace rocketlauncher
 			{
-				namespace cny_dragonlauncher
-				{
-					namespace effects
-					{
-						constexpr uint32_t attack_p = 1602479095; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/attack.prefab
-						constexpr uint32_t attack_cny_p = 893088355; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/attack_cny.prefab
-						constexpr uint32_t deploy_p = 424923004; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/deploy.prefab
-						constexpr uint32_t dryfire_p = 3609751308; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/dryfire.prefab
-						constexpr uint32_t fire_p = 3209285026; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/fire.prefab
-						constexpr uint32_t grab_handle_p = 2899792779; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/grab_handle.prefab
-						constexpr uint32_t holster_p = 79795386; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/holster.prefab
-						constexpr uint32_t pfx_close_hatch_smoke_p = 1281963433; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/pfx_close_hatch_smoke.prefab
-						constexpr uint32_t pfx_fire_rocket_smokeout_p = 1289931312; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/pfx_fire_rocket_smokeout.prefab
-						constexpr uint32_t pfx_open_hatch_smokeout_p = 2856157776; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/pfx_open_hatch_smokeout.prefab
-						constexpr uint32_t pfx_rocket_insert_pressure_p = 3062340038; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/pfx_rocket_insert_pressure.prefab
-						constexpr uint32_t pfx_rocket_insert_smoke_deprecated_p = 939613095; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/pfx_rocket_insert_smoke_deprecated.prefab
-						constexpr uint32_t reload_begin_p = 601533709; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/reload_begin.prefab
-						constexpr uint32_t reload_close_hatch_p = 839433785; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/reload_close_hatch.prefab
-						constexpr uint32_t reload_end_p = 2389236962; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/reload_end.prefab
-						constexpr uint32_t reload_insert_rocket_p = 3529295728; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/reload_insert_rocket.prefab
-						constexpr uint32_t reload_open_hatch_p = 4282036026; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/reload_open_hatch.prefab
-						constexpr uint32_t rocket_explosion_p = 812439441; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/rocket_explosion.prefab
-						constexpr uint32_t rocket_explosion_incendiary_p = 3869962075; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/rocket_explosion_incendiary.prefab
-						constexpr uint32_t rocket_launch_fx_p = 2321350376; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/effects/rocket_launch_fx.prefab
-					}
-					constexpr uint32_t rocket_launcher_dragon_entity_p = 3036013699; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab
-					constexpr uint32_t rocket_launcher_dragon_item_p = 949931476; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/rocket_launcher_dragon.item.prefab
-					constexpr uint32_t rocket_launcher_dragon_viewmodel_p = 3717781285; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/rocket_launcher_dragon.viewmodel.prefab
-					constexpr uint32_t rocket_launcher_dragon_worldmodel_p = 1022502124; // assets/prefabs/weapons/rocketlauncher/cny_dragonlauncher/rocket_launcher_dragon.worldmodel.prefab
-				}
 				namespace effects
 				{
 					constexpr uint32_t attack_p = 2496105143; // assets/prefabs/weapons/rocketlauncher/effects/attack.prefab
@@ -21965,6 +22309,50 @@ namespace assets
 					constexpr uint32_t rpg2_p = 1721630106; // assets/prefabs/weapons/rocketlauncher/rpg/rpg2.prefab
 					constexpr uint32_t rpg3_p = 1190386665; // assets/prefabs/weapons/rocketlauncher/rpg/rpg3.prefab
 					constexpr uint32_t rpg4_p = 624205344; // assets/prefabs/weapons/rocketlauncher/rpg/rpg4.prefab
+				}
+				namespace skins
+				{
+					namespace cny_dragonlauncher
+					{
+						namespace effects
+						{
+							constexpr uint32_t attack_p = 1275449866; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/attack.prefab
+							constexpr uint32_t attack_cny_p = 2683414954; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/attack_cny.prefab
+							constexpr uint32_t deploy_p = 2948271018; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/deploy.prefab
+							constexpr uint32_t dryfire_p = 3946034274; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/dryfire.prefab
+							constexpr uint32_t fire_p = 594681602; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/fire.prefab
+							constexpr uint32_t grab_handle_p = 1203472599; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/grab_handle.prefab
+							constexpr uint32_t holster_p = 232585150; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/holster.prefab
+							constexpr uint32_t pfx_close_hatch_smoke_p = 4172671507; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_close_hatch_smoke.prefab
+							constexpr uint32_t pfx_fire_rocket_smokeout_p = 3129541457; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_fire_rocket_smokeout.prefab
+							constexpr uint32_t pfx_open_hatch_smokeout_p = 3211652819; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_open_hatch_smokeout.prefab
+							constexpr uint32_t pfx_rocket_insert_pressure_p = 2143658746; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_rocket_insert_pressure.prefab
+							constexpr uint32_t pfx_rocket_insert_smoke_deprecated_p = 793616836; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/pfx_rocket_insert_smoke_deprecated.prefab
+							constexpr uint32_t reload_begin_p = 762013677; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/reload_begin.prefab
+							constexpr uint32_t reload_close_hatch_p = 2491910195; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/reload_close_hatch.prefab
+							constexpr uint32_t reload_end_p = 3824431188; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/reload_end.prefab
+							constexpr uint32_t reload_insert_rocket_p = 1924082457; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/reload_insert_rocket.prefab
+							constexpr uint32_t reload_open_hatch_p = 240171581; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/reload_open_hatch.prefab
+							constexpr uint32_t rocket_explosion_p = 1324175401; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/rocket_explosion.prefab
+							constexpr uint32_t rocket_explosion_incendiary_p = 3762969486; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/rocket_explosion_incendiary.prefab
+							constexpr uint32_t rocket_launch_fx_p = 3519153798; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/effects/rocket_launch_fx.prefab
+						}
+						constexpr uint32_t rocket_launcher_dragon_entity_p = 3704640358; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.entity.prefab
+						constexpr uint32_t rocket_launcher_dragon_item_p = 1878729891; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.item.prefab
+						constexpr uint32_t rocket_launcher_dragon_viewmodel_p = 2003445428; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.viewmodel.prefab
+						constexpr uint32_t rocket_launcher_dragon_worldmodel_p = 1579916423; // assets/prefabs/weapons/rocketlauncher/skins/cny_dragonlauncher/rocket_launcher_dragon.worldmodel.prefab
+					}
+					namespace rpg7
+					{
+						namespace effects
+						{
+							constexpr uint32_t attack_p = 3582013844; // assets/prefabs/weapons/rocketlauncher/skins/rpg7/effects/attack.prefab
+						}
+						constexpr uint32_t rpg7_entity_p = 3445264346; // assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.entity.prefab
+						constexpr uint32_t rpg7_item_p = 778722746; // assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.item.prefab
+						constexpr uint32_t rpg7_viewmodel_p = 634299436; // assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.viewmodel.prefab
+						constexpr uint32_t rpg7_worldmodel_p = 1730723182; // assets/prefabs/weapons/rocketlauncher/skins/rpg7/rpg7.worldmodel.prefab
+					}
 				}
 			}
 			namespace salvaged_axe
@@ -22093,6 +22481,36 @@ namespace assets
 				constexpr uint32_t pistol_semiauto_item_p = 2294303436; // assets/prefabs/weapons/semi auto pistol/pistol_semiauto.item.prefab
 				constexpr uint32_t pistol_semiauto_viewmodel_p = 2004292685; // assets/prefabs/weapons/semi auto pistol/pistol_semiauto.viewmodel.prefab
 				constexpr uint32_t pistol_semiauto_worldmodel_p = 1584828952; // assets/prefabs/weapons/semi auto pistol/pistol_semiauto.worldmodel.prefab
+				namespace skins
+				{
+					namespace pistol_a_m15
+					{
+						namespace effects
+						{
+							constexpr uint32_t attack_p = 1900616923; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack.prefab
+							constexpr uint32_t attack_muzzlebrake_p = 1763045968; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_muzzlebrake.prefab
+							constexpr uint32_t attack_shake_p = 2974999547; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_shake.prefab
+							constexpr uint32_t attack_shake_ads_p = 137677224; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_shake_ads.prefab
+							constexpr uint32_t attack_silenced_p = 2037386974; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_silenced.prefab
+							constexpr uint32_t attack_silenced_oilfilter_p = 318496276; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_silenced_oilfilter.prefab
+							constexpr uint32_t attack_silenced_sodacan_p = 905305220; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/attack_silenced_sodacan.prefab
+							constexpr uint32_t deploy_p = 3496441135; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/deploy.prefab
+							constexpr uint32_t dryfire_p = 1238239763; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/dryfire.prefab
+							constexpr uint32_t eject_clip_p = 3688359051; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/eject_clip.prefab
+							constexpr uint32_t eject_pistol_shell_p = 2739478237; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/eject_pistol_shell.prefab
+							constexpr uint32_t grab_clip_p = 3675988970; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/grab_clip.prefab
+							constexpr uint32_t insert_clip_p = 1909023061; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/insert_clip.prefab
+							constexpr uint32_t slide_back_p = 3044270706; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/slide_back.prefab
+							constexpr uint32_t slide_shut_p = 1240899127; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/slide_shut.prefab
+							constexpr uint32_t w_drop_mag_p = 2352568713; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/w_drop_mag.prefab
+							constexpr uint32_t w_eject_pistol_shell_p = 2554227547; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/effects/w_eject_pistol_shell.prefab
+						}
+						constexpr uint32_t pistol_semiauto_a_m15_entity_p = 2343718176; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.entity.prefab
+						constexpr uint32_t pistol_semiauto_a_m15_item_p = 4051847864; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.item.prefab
+						constexpr uint32_t pistol_semiauto_a_m15_viewmodel_p = 1725010188; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.viewmodel.prefab
+						constexpr uint32_t pistol_semiauto_a_m15_worldmodel_p = 3878903536; // assets/prefabs/weapons/semi auto pistol/skins/pistol_a_m15/pistol_semiauto.a.m15.worldmodel.prefab
+					}
+				}
 			}
 			namespace semi_auto_rifle
 			{
@@ -22398,6 +22816,39 @@ namespace assets
 				constexpr uint32_t torch_worldmodel_p = 398687036; // assets/prefabs/weapons/torch/torch.worldmodel.prefab
 			}
 			constexpr uint32_t unarmed_viewmodel_p = 2204955283; // assets/prefabs/weapons/unarmed.viewmodel.prefab
+			namespace warhammer
+			{
+				namespace krieg_chainsword
+				{
+					namespace effects
+					{
+						constexpr uint32_t deploy_p = 4281469991; // assets/prefabs/weapons/warhammer/krieg chainsword/effects/deploy.prefab
+					}
+					constexpr uint32_t krieg_chainsword_entity_p = 4148293472; // assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.entity.prefab
+					constexpr uint32_t krieg_chainsword_item_p = 2788292511; // assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.item.prefab
+					constexpr uint32_t krieg_chainsword_viewmodel_p = 1879267003; // assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.viewmodel.prefab
+					constexpr uint32_t krieg_chainsword_worldmodel_p = 3112148899; // assets/prefabs/weapons/warhammer/krieg chainsword/krieg_chainsword.worldmodel.prefab
+				}
+				namespace krieg_shotgun
+				{
+					namespace effects
+					{
+						constexpr uint32_t attack_p = 915409058; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack.prefab
+						constexpr uint32_t attack_muzzlebrake_p = 3014003726; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack_muzzlebrake.prefab
+						constexpr uint32_t attack_shake_p = 1582994449; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack_shake.prefab
+						constexpr uint32_t attack_silenced_p = 2438935450; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack_silenced.prefab
+						constexpr uint32_t attack_silenced_oilfilter_p = 3006355560; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack_silenced_oilfilter.prefab
+						constexpr uint32_t attack_silenced_sodacan_p = 1657430333; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/attack_silenced_sodacan.prefab
+						constexpr uint32_t dryfire_p = 2876918440; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/dryfire.prefab
+						constexpr uint32_t eject_shell_p = 3492041784; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/eject_shell.prefab
+						constexpr uint32_t w_eject_shotgun_shell_p = 2920412956; // assets/prefabs/weapons/warhammer/krieg shotgun/effects/w_eject_shotgun_shell.prefab
+					}
+					constexpr uint32_t krieg_shotgun_entity_p = 1896956209; // assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.entity.prefab
+					constexpr uint32_t krieg_shotgun_item_p = 1543854752; // assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.item.prefab
+					constexpr uint32_t krieg_shotgun_viewmodel_p = 4054596564; // assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.viewmodel.prefab
+					constexpr uint32_t krieg_shotgun_worldmodel_p = 2038571090; // assets/prefabs/weapons/warhammer/krieg shotgun/krieg_shotgun.worldmodel.prefab
+				}
+			}
 			namespace waterbucket
 			{
 				constexpr uint32_t bucket_item_p = 2953953061; // assets/prefabs/weapons/waterbucket/bucket.item.prefab
@@ -22458,8 +22909,6 @@ namespace assets
 			constexpr uint32_t decor_v3_p = 47856266; // assets/prefabs/world/decor.v3.prefab
 			constexpr uint32_t foliage_procmap_v3_p = 3951159325; // assets/prefabs/world/foliage.procmap.v3.prefab
 			constexpr uint32_t foliage_v3_p = 2832326471; // assets/prefabs/world/foliage.v3.prefab
-			constexpr uint32_t foliage_v3_tutorial_p = 2357373864; // assets/prefabs/world/foliage.v3_tutorial.prefab
-			constexpr uint32_t foliage_v3_tutorialgrid_p = 955533002; // assets/prefabs/world/foliage.v3_tutorialgrid.prefab
 			constexpr uint32_t spawn_empty_p = 3128539697; // assets/prefabs/world/spawn.empty.prefab
 			constexpr uint32_t spawn_procmap_v3_p = 2124703799; // assets/prefabs/world/spawn.procmap.v3.prefab
 			constexpr uint32_t spawn_v2_hapis_p = 2748339892; // assets/prefabs/world/spawn.v2.hapis.prefab
@@ -23051,6 +23500,12 @@ namespace assets
 				namespace editor
 				{
 					constexpr uint32_t canvas_p = 3951820790; // assets/scenes/test/modelviewer/editor/canvas.prefab
+					namespace clothing_mannequin
+					{
+						constexpr uint32_t clothing_mannequin (1)_p = 2387781817; // assets/scenes/test/modelviewer/editor/clothing_mannequin/clothing_mannequin (1).prefab
+						constexpr uint32_t lighting_p = 157093206; // assets/scenes/test/modelviewer/editor/clothing_mannequin/lighting.prefab
+						constexpr uint32_t modelviewercamera_p = 1523849783; // assets/scenes/test/modelviewer/editor/clothing_mannequin/modelviewercamera.prefab
+					}
 					constexpr uint32_t lighting_p = 3738941438; // assets/scenes/test/modelviewer/editor/lighting.prefab
 					constexpr uint32_t modelviewercamera_p = 1773644096; // assets/scenes/test/modelviewer/editor/modelviewercamera.prefab
 				}
@@ -23086,6 +23541,16 @@ namespace assets
 				namespace visualstoragecontainer
 				{
 					constexpr uint32_t visualshelvestest_p = 3989929317; // assets/scripts/entity/misc/visualstoragecontainer/visualshelvestest.prefab
+				}
+			}
+		}
+		namespace game
+		{
+			namespace foliage
+			{
+				namespace editor
+				{
+					constexpr uint32_t editor_view_grass_p = 27014275; // assets/scripts/game/foliage/editor/editor_view_grass.prefab
 				}
 			}
 		}
@@ -23204,6 +23669,11 @@ namespace assets
 				}
 			}
 		}
+		namespace flexiblecolorpicker
+		{
+			constexpr uint32_t flexiblecolorpicker (hue & main panel only)_p = 1164739957; // assets/third party/flexiblecolorpicker/flexiblecolorpicker (hue & main panel only).prefab
+			constexpr uint32_t flexiblecolorpicker (template)_p = 2278803626; // assets/third party/flexiblecolorpicker/flexiblecolorpicker (template).prefab
+		}
 		namespace kriptofx
 		{
 			namespace explosions
@@ -23310,5 +23780,6 @@ namespace assets
 		constexpr uint32_t row_color_p = 2060949709; // assets/workshop/row.color.prefab
 		constexpr uint32_t row_float_p = 1012458230; // assets/workshop/row.float.prefab
 		constexpr uint32_t row_texture_p = 4028493262; // assets/workshop/row.texture.prefab
+		constexpr uint32_t workshopitemtypeselectionbutton_p = 1122284540; // assets/workshop/workshopitemtypeselectionbutton.prefab
 	}
 }
